@@ -105,7 +105,7 @@ define(["jquery", "moment", "lodash", "websockets/binary_websockets", "common/ri
               if(_.some(loginids, {is_disabled: true})) {
                 $.growl.error({
                   fixed: true,
-                  message:"<a href='https://www.binary.com/en/contact.html' target='_blank'>"
+                  message:"<a href='https://www.champion-fx.com/en/contactus' target='_blank'>"
                           + "Your account is locked, please contact customer support for more info.".i18n()
                           + "</a>"
                 });
@@ -131,7 +131,12 @@ define(["jquery", "moment", "lodash", "websockets/binary_websockets", "common/ri
                         liveapi.switch_account(data.id)
                             .catch(function (err) {
                                 $.growl.error({message: err.message});
-                            })
+                                // logout user if he decided to self exclude himself.
+                                if(err.code==="SelfExclusion"){
+                                  console.log("logging out because of self exclude");
+                                  liveapi.invalidate();
+                                }
+                            });
                     })
                     li.insertBefore(logout_btn.parent());
                 }
