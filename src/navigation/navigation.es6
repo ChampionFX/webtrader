@@ -51,6 +51,13 @@ const initLoginButton = (root) => {
       e.type = getType(e);
       return e;
    });
+   state.login = () => {
+      const app_id = liveapi.app_id;
+      state.login.disabled = true;
+      const config = local_storage.get('config');
+      const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
+      window.location =  oauth_url + '?app_id=' + app_id;
+   }
    state.showLoginWin = () => {
       state.login_disabled = true;
       require(['oauth/login'], (login_win) => {

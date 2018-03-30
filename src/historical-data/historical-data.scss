@@ -5,10 +5,9 @@
    }
    .instrumnet-dropdown {
       position: absolute;
-      background: linear-gradient(#2A3052,#15212D);
       height: 34px;
       width: 170px;
-      left: 160px;
+      left: 175px;
       top: 0;
       color: white;
       z-index: +1;
@@ -35,7 +34,6 @@
       li {
          min-width: 130px;
          font-size: 14px;
-         background: #2A3052;
          color: white;
       }
       .ui-icon-caret-1-e {
@@ -67,7 +65,6 @@
    }
    .date-time {
       position: absolute;
-      background: linear-gradient(#2A3052,#15212D);
       height: 34px;
       width: 210px;
       left: 340px;

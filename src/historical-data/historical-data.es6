@@ -19,9 +19,9 @@ const buildMenu = ($root, instrumentName, callback) => {
       _.delay(() => buildMenu($root, instrumentName, callback), 1000);
       return;
    }
-   const menu = `<ul>${
-      markets.map(m => `<li><div>${m.display_name}</div><ul>${
-         m.submarkets.map(s => `<li><div>${s.display_name}</div><ul>${
+   const menu = `<ul class="primary-color">${
+      markets.map(m => `<li><div>${m.display_name}</div><ul class="primary-color">${
+         m.submarkets.map(s => `<li><div>${s.display_name}</div><ul class="primary-color">${
             s.instruments.map(i => `<li symbol='${i.symbol}'><div>${i.display_name}</div></li>`).join('')
          }</ul></li>`).join('')
       }</ul></li>`).join('')
