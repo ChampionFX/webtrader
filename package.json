@@ -49,6 +49,7 @@
     "showdown": "^1.6.3"
   },
   "scripts": {
+    "test": "node test.js",
     "deploy-gh-pages": "grunt if:live if:beta",
     "start": "grunt && concurrently -k \"grunt watch\" \"grunt connect\"",
     "watch": "grunt watch",
