@@ -34,6 +34,7 @@
   display: flex;
   padding: 0 10px;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
   width: 33%;
   font-size: 1.2em;
@@ -60,17 +61,17 @@
 
 .trade-conf .transaction-row {
   margin-top: 2px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
 }
 
 .ui-dialog .ui-dialog-content.trade-dialog .trade-conf .view-row {
-  margin-top: 40px;
   height: 40px;
 }
 .ui-dialog .ui-dialog-content.trade-dialog .trade-conf .view-row .view {
     padding-bottom: 3px;
-    margin-top: 2px;
+    margin-top: 3px;
     height: 100%;
+    overflow-y: hidden;
 }
 .trade-conf .view-row .arrow {
   cursor: pointer;
@@ -79,8 +80,6 @@
 }
 
 .trade-conf .balance-row {
-  bottom: 0;
-  position: absolute;
   width: 100%;
 }
 .trade-conf .balance-row .bold {
@@ -94,9 +93,7 @@
   background: rgba(46, 136, 54, 0.196);
 }
 .trade-conf .digits-row {
-  margin-top: 15px;
-  max-height: 100px;
-  padding:0 0 5px 0;
+  max-height: 107px;
   overflow-y: hidden;
   display: block;
 }

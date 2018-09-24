@@ -1,11 +1,10 @@
 {
   "name": "Webtrader",
-  "version": "2.1.17",
+  "version": "2.2.8",
   "description": "Webtrader for champion-fx.com",
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">=6.0",
-    "npm": ">=3.0"
+    "node": ">=9.0"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
@@ -45,7 +44,7 @@
     "grunt-string-replace": "^1.0.0",
     "grunt-text-replace": "^0.4.0",
     "lodash": "^4.17.4",
-    "node-sass": "^3.10.0",
+    "node-sass": "^4.5.3",
     "showdown": "^1.6.3"
   },
   "scripts": {
@@ -59,7 +58,8 @@
     "sloc": "grunt sloc",
     "major-rel": "grunt bump:major",
     "minor-rel": "grunt bump:minor",
-    "patch-rel": "grunt bump:patch"
+    "patch-rel": "grunt bump:patch",
+    "test": "echo 'test command not supported'"
   },
   "repository": {
     "type": "git",
@@ -101,7 +101,7 @@
     "rivets": "0.8.1",
     "text": "requirejs/text",
     "vanderlee-colorpicker": "^1.2.13",
-    "webtrader-charts": "^0.3.11"
+    "webtrader-charts": "^0.4.12"
   },
   "contributors": [
     {

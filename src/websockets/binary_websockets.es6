@@ -11,27 +11,38 @@ let socket = null;
 let is_website_up = false;
 let queued_requests = {};
 
-const get_app_id = () => {
-   const app_ids = JSON.parse(app_ids_json);
-   const config = local_storage.get('config');
-   let token = (config && config.app_id) || '';
 
-   if(!token) { /* find the appropriate token */
-      const href = window.location.href;
-      for(const web_address in app_ids) {
-         if(href.lastIndexOf(web_address, 0) == 0) {
-            token = app_ids[web_address];
-            break;
-         }
+const get_app_default_appid = () => {
+  const app_ids = JSON.parse(app_ids_json);
+  let token = localStorage.getItem('config.app_id')
+
+  if(!token) { /* find the appropriate token */
+    const href = window.location.href;
+    for(const web_address in app_ids) {
+      if(href.lastIndexOf(web_address, 0) == 0) {
+        token = app_ids[web_address];
+        break;
       }
-   }
-   return token;
+    }
+  }
+  localStorage.setItem('config.default_app_id', token);
+  return token;
 };
 
+const get_app_id = () => localStorage.getItem('config.app_id') || get_app_default_appid() || 11;
+
+const get_server_url = () => localStorage.getItem('config.server_url') || 'frontend.binaryws.com';
+
+const get_socket_url = () => {
+   const server_url = get_server_url();
+   return `wss://${server_url}/websockets/v3`;
+};
+
+export const socket_url = get_socket_url();
 export const app_id = get_app_id();
+export const server_url = get_server_url();
 
 const connect = () => {
-   const config = local_storage.get('config');
    const i18n_name = (local_storage.get('i18n') || { value: 'en' }).value;
    const api_url = ((config && config.websocket_url)  || 'wss://ws.binaryws.com/websockets/v3?l='+i18n_name) + '&brand=champion&app_id=' + app_id;
    const ws = new WebSocket(api_url);
@@ -446,7 +457,6 @@ export const cached  = {
    }
 }
 
-
 /* sends a request and returns an es6-promise */
 export const send = (data, timeout) => {
    if (data && needs_authentication(data))
@@ -459,7 +469,6 @@ export const send = (data, timeout) => {
 
 /* whether current session is authenticated or not */
 export const is_authenticated = () => is_authenitcated_session;
-
 
 export const sell_expired = (epoch) => {
    const now = (new Date().getTime())/1000 | 0;
@@ -482,7 +491,9 @@ const api = {
    is_authenticated,
    sell_expired,
    invalidate,
-   app_id
+   app_id,
+   socket_url,
+   server_url
 }
 /* subscribe to website_status */
 api.events.on('website_status', (data) => {
@@ -515,4 +526,7 @@ api.events.on('logout',() => {
       .catch((err) => console.error(err));
 });
 
- export default api;
+/* backend closes connection if there is no activity in the websocket connection */
+ setInterval(() => api.send({ "ping": 1 }), 30000);
+
+export default api;

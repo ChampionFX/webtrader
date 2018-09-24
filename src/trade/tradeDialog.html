@@ -30,6 +30,7 @@
             rv-on-click="category_displays.onclick"
             rv-data-name="row.name"
             rv-data-sentiment="row.sentiment"
+            rv-data-contract_type="row.contract_type"
             rv-class-active="category_displays.selected.name | eq row.name"
             > {row.name | capitalize | i18n} </li>
     </ul>
@@ -41,8 +42,10 @@
         <li rv-on-click="date_start.update">
             <select class="date-start-select"
                     rv-jq-class="'trade-dialog-date-start-ul'"
-                    rv-selectmenu="date_start.value | notify duration_unit.update | debounce proposal.onchange"
-                    rv-selectrefresh="date_start.array" >
+                    rv-chosen="date_start.value | notify duration_unit.update | debounce proposal.onchange"
+                    rv-chosenrefresh="date_start.array"
+                    style="width: 100px"
+                    >
                     <option rv-each-row="date_start.array" rv-value="row.value">{row.text | i18n}</option>
            </select>
         </li>
@@ -79,7 +82,7 @@
            </select>
         </li>
         <li rv-show="duration.value | eq 'Duration' ">
-            <input class="duration-count" type="number" step="1" min="1" max="100000000"
+            <input class="duration-count" id="duration-input" type="number" step="1" min="1" max="100000000"
                    rv-value="duration_count.value | debounce proposal.onchange" />
         </li>
         <li rv-show="duration.value | eq 'Duration' ">
@@ -160,7 +163,7 @@
     <ul class="barriers-low-barrier-row"
         rv-css-padding-top="categories.paddingTop < value"
         rv-show="barriers.barrier_count | eq 2">
-        <li> <span class="dotted-underline align-text text-vertical-align" 
+        <li> <span class="dotted-underline align-text text-vertical-align"
                 rv-data-balloon="'Enter the barrier in terms of the difference from the spot price. If you enter +0.005, then you will be purchasing a contract with a barrier 0.005 higher than the entry spot. The entry spot will be the next tick after your order has been received'"
                 data-balloon-length='large'
                 data-balloon-pos="down"
@@ -204,7 +207,7 @@
            </select>
         </li>
         <li rv-attr-dummy="basis.amount | debounce proposal.onchange">
-            <price-spinner class="basis-amount" value="basis.amount" min='0' decimals='currency.decimal' />
+             <input class="basis-amount" type="text" rv-decimal-round="currency.decimals | or 5" rv-value="basis.amount" no-symbol="no-symbol" />
         </li>
     </ul>
 
@@ -270,43 +273,56 @@
       </li>
       <li></li>
     </ul>
-
-    <ul class="proposal-message stick-to-bottom"
+    <ul class="proposal-message"
         rv-css-opacity="proposal.loading | or purchase.loading | ternary 0.5 1">
         <li>{proposal.message}</li>
     </ul>
 
-    <ul class="message-row stick-to-bottom netprofit fill-bg-color"
+    <ul class="message-row-wrapper netprofit fill-bg-color"
         rv-if="categories.value.contract_category | not-eq 'spreads' | and proposal.error | eq ''"
         rv-css-opacity="proposal.loading | or purchase.loading | ternary 0.5 1">
-        <li>
-          Net Profit: <span rv-html="proposal.netprofit_ < ask_price payout"> </span>
-          | Payout: <span rv-html="proposal.payout_ < ask_price payout"> </span>
+        <li class="message-row-wrapper__container">
+          <span rv-show='proposal.netprofit_ < ask_price payout'>
+            Net Profit: <span rv-html="proposal.netprofit_ < ask_price payout"> </span> |
+          </span>
+          <span>
+            Payout: <span rv-html="proposal.payout_ | call proposal.payout proposal.ask_price proposal.multiplier category_displays.selected.contract_type"> </span>
+          </span>
+          <span rv-show="proposal.return_ < ask_price payout">
+             | Return: <span rv-html="proposal.return_ < ask_price payout"> </span>
+          </span>
         </li>
     </ul>
 
-    <ul class="message-row stick-to-bottom spread-deposit"
+    <ul class="message-row-wrapper spread-deposit"
         rv-if="categories.value.contract_category | eq 'spreads' | and proposal.error | eq ''"
         rv-css-opacity="proposal.loading | or purchase.loading | ternary 0.5 1">
-      <li rv-if="categories.value.contract_category | eq 'spreads'">
+      <li class="message-row-wrapper__container" rv-if="categories.value.contract_category | eq 'spreads'">
         Deposit of USD <span rv-text="spreads.deposit_ < amount_per_point stop_loss stop_type | to-fixed 2 "> </span>
         is required. Current spread: <span rv-text="spreads.spread" > </span> points
       </li>
     </ul>
 
-    <ul class="message-row stick-to-bottom error"
+    <ul class="message-row-wrapper error"
         rv-if="proposal.error | not-eq ''"
         rv-css-opacity="proposal.loading | or purchase.loading | ternary 0.5 1">
-        <li>{proposal.error}</li>
+        <li class="message-row-wrapper__container" >{proposal.error}</li>
     </ul>
 
-    <ul class="purchase-row stick-to-bottom ltr-direction"
+    <ul class="purchase-row-wrapper"
         rv-css-opacity="proposal.loading | or purchase.loading | or ticks.loading | or proposal.error | ternary 0.5 1">
-      <li class="text-vertical-align"> <span class="no-wrap"> You pay: <span rv-html="proposal.ask_price | format-price currency.value"> </span> </span> </li>
-      <li> <button
-              rv-on-click="purchase.onclick"
-              rv-disabled="proposal.loading | or purchase.loading | or ticks.loading | or proposal.error">Purchase</button>
-      </li>
+        <li class="purchase-row-wrapper__text-container">
+            <span>
+                You pay: <span rv-html="proposal.ask_price | format-price currency.value" />
+            </span>
+        </li>
+        <li class="purchase-row-wrapper__btn-container">
+            <button
+                rv-on-click="purchase.onclick"
+                rv-disabled="proposal.loading | or purchase.loading | or ticks.loading | or proposal.error">
+                Purchase
+            </button>
+        </li>
     </ul>
   </div>
 </div>

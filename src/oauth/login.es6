@@ -99,15 +99,27 @@ const init_state = (root, win) => {
 
    state.login.login = () => {
       state.login.disabled = true;
+<<<<<<< HEAD
       const config = local_storage.get('config');
       const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
       window.location =  oauth_url + '?app_id=' + app_id;
+=======
+      const lang = (local_storage.get('i18n') || {value:"en"}).value;
+      const server_url = liveapi.server_url;
+      const oauth_url = `https://${server_url}/oauth2/authorize`;
+      window.location =  oauth_url + '?app_id=' + app_id + '&l=' +lang;
+>>>>>>> 9bd2f7b99277869f0d638b8c70976e7a99b8cae8
    }
 
    state.confirm.confirm = () => {
       state.confirm.disabled = true;
+<<<<<<< HEAD
       const config = local_storage.get('config');
       const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
+=======
+      const server_url = liveapi.server_url;
+      const oauth_url = `https://${server_url}/oauth2/authorize`;
+>>>>>>> 9bd2f7b99277869f0d638b8c70976e7a99b8cae8
       window.location =  oauth_url + '?app_id=' + app_id;
    }
 

@@ -1,11 +1,19 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: webtrader\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /development/translations/i18n/messages.pot\n"
+"Project-Id-Version: webtrader\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: binarycom <jy@binary.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"PO-Revision-Date: 2018-08-16 05:20\n"
+
 msgid "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
 msgstr "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
-
-msgid "'Asian Fall' - You win when the last tick is lower than the average of the ticks during the trade"
-msgstr "“亚洲下跌”期权 - 交易期内当最新价格低于平均价格时，您将获得赔付"
-
-msgid "'Asian Rise' - You win when the last tick is higher than the average of the ticks during the trade"
-msgstr "“亚洲上涨”期权 - 交易期内当最新价格高于平均价格时，您将获得赔付"
 
 msgid "'Best Customer Communication Firm' award by Investors Chronicle"
 msgstr "《 Investors Chronicle》颁发的“最佳客户沟通企业”奖项"
@@ -22,17 +30,14 @@ msgstr "英国《Shares Magazine》颁发的“最佳固定赔率金融交易提
 msgid "'Best Fixed-Odds Firm 2012' award by Global Banking and Finance Review"
 msgstr "《Global Banking and Finance Review》颁发的“2012年最佳固定赔率企业”奖项"
 
-msgid "'Differs' - You win when the last digit of the last tick does not match your prediction"
-msgstr "“差异” - 当最新价格的最后一个数字跟您的预测不同时，您将获得赔付"
-
 msgid "'Financial Betting Operator of the Year' award by eGaming Review"
 msgstr "《 eGaming Review》颁发的“年度最佳金融投注运营商”奖项"
 
-msgid "'Matches' - You win when the last digit of the last tick matches your prediction"
-msgstr "“符合” - 只要最新价格的最后一个数字与您的预测相同，您将获得赔付"
-
 msgid "'contract period'"
 msgstr "“合约期间”"
+
+msgid "(6,000   5,200) * 2 = $1600"
+msgstr ""
 
 msgid "(One) Touch trades"
 msgstr "一触即付交易"
@@ -43,62 +48,77 @@ msgstr "(原名"
 msgid "(if less than one day in duration), or at the end of the trading day (if one day or more in duration)"
 msgstr "（如期限不到一天），或于交易日结束时（如期限是一天及以上）"
 
+msgid "(license reference no: 39172)"
+msgstr ""
+
+msgid "(license reference no: 39495)"
+msgstr ""
+
 msgid ") goes live, establishing a round-the-clock financial betting service on a variety of financial indices. Business grows quickly, and we soon become the market leader in fixed-odds financial betting"
-msgstr "正式上线，提供基于各种金融指数的全天侯金融投注服务。公司业务快速增长，我们很快即成为固定赔率金融投注的市场领导者"
+msgstr "正式上线，提供基于各种金融指数的全天侯金融投注服务。公司业务快速增长，我们很快将成为固定赔率金融投注的市场领导者"
 
-msgid "- Binary.com benchmarks its prices daily against inter-bank derivatives markets"
-msgstr "- Binary.com每日基于银行间衍生品市场提供基准价格"
-
-msgid "- Binary.com ensures your personal data and transactions are always secure"
-msgstr "- Binary.com确保您的个人数据和交易总是安全"
+msgid "- Benefit from the same rates of return as interbank traders. Our prices are benchmarked daily against the interbank options markets"
+msgstr "-与银行间交易员享有相同的回报率。我们每日都对比银行间选项市场来制定基准价格。"
 
 msgid "- Binary.com is not affiliated with any of the Payment Agents listed above. Each Payment Agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by Binary.com. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of Payment Agents before sending them any money. Binary.com shall not in any circumstance be held responsible for transactions made between customers and Payment Agents"
 msgstr "- Binary.com与上述所有支付代理不存在附属关系。各支付代理均以独立服务提供商的身份运营，未由Binary.com支持、担保或经其他方式批准。客户与支付代理的业务往来，风险自负。我们建议客户在向支付代理汇款前，应事先查询其信用状况。在任何情况下，Binary.com 都不对客户与支付代理之间的交易承担责任"
 
-msgid "- Binary.com is the industry pioneer and holds patented pricing technology"
-msgstr "- Binary.com是拥有受专利保护的报价技术的业内领先企业"
+msgid "- Choose from over one million possible trade variations at any time, and customise your trades according to your preferred strategy"
+msgstr "- 随时从一百多万个交易选项中挑选，并按照您倾向的策略自定义交易"
 
-msgid "- Binary.com offers many payment methods, such as credit/debit cards, bank wires, e-cash and e-wallets"
-msgstr "- Binary.com 提供多种付款方式，包括借记卡和信用卡、银行电汇、电子现金及电子钱包等"
+msgid "- Choose timeframes from 10 seconds to 365 days"
+msgstr "- 选择时间范围为10秒到365天"
 
-msgid "- Binary.com quotes a trade and the counter-trade, so you always get unbiased, transparent prices"
+msgid "- Deposit as little as USD 5 to start trading"
+msgstr "- 存款最低仅需5美元即可开始交易"
+
+msgid "- Earn the same proportional return on stakes of all values"
+msgstr "- 无论投入多少资金进行交易，均可获得同等回报率"
+
+msgid "- Enjoy a trading platform that s easy to navigate and use"
+msgstr "- 享受简单操作、轻松浏览的交易平台"
+
+msgid "- Know how much you will win or lose before you purchase the contract"
+msgstr "- 购入合约交易前，您已知道赢或输的金额"
+
+msgid "- Open an account and start trading in minutes. Deposits and withdrawals are also available 24/7"
+msgstr "- 仅需数分钟即可开设账户并开始交易。也可全天候存取款"
+
+msgid "- Predict the market ending higher or lower than a price target"
+msgstr "-预测到期时市场价格是高于还是低于目标价格。"
+
+msgid "- Predict the market rising or falling from its current level"
+msgstr "-预测市价从目前价位上升或下跌。"
+
+msgid "- Predict the market staying between or going outside two price targets"
+msgstr "-预测市价是保持在两个目标价格的范围之内，还是超出范围之外。"
+
+msgid "- Predict the market touching or not touching a price target"
+msgstr "-预测市价触及或不触及一个目标价格。"
+
+msgid "- Receive quotes for a trade and counter-trade, so you always get unbiased, transparent rates from Binary.com"
 msgstr "- Binary.com提供交易与反向交易的报价，因此您将始终获得公正透明的价格"
 
-msgid "- binaries are licensed as a betting activity in the UK, so your winnings are tax-free"
-msgstr "- 二元期权牌照在英国属于博彩活动，因此您的收益是免税的"
+msgid "- Sell your long-term contracts before expiry to protect any profits you may have made or to minimise your losses"
+msgstr "- 长期合约到期前售出交易，以保护您的盈利或将亏损降至最低"
 
-msgid "- choose intraday trades from 1 minute to 24 hours"
-msgstr "- 选择从1分钟至24小时的日内交易期限"
+msgid "- Trade based on \"gut feel\" or rely on technical and fundamental analysis"
+msgstr "- 使用技术或基本面分析或按您的“直觉”进行交易"
 
-msgid "- choose the falls trade, lower trade, one-touch trade with a low barrier, or no-touch trade with a high barrier"
-msgstr "- 选择下跌交易、低于交易、设低障碍的一触即付交易或设高障碍的未触及交易"
+msgid "- Trade confidently, knowing that your personal data, transactions, and funds are always secure"
+msgstr "- 得知个人数据、交易和资金总是安全的，您可以充满信心地进行交易"
 
-msgid "- choose the no-touch trade, the stays-between trade, or the ends-between trade"
-msgstr "- 选择未触及交易、保持在范围之内交易或收盘位于范围之内交易"
+msgid "- Trade currencies, indices, commodities and more in rising, falling, sideways, quiet, and volatile markets"
+msgstr "- 在各种市场环境（上涨、下跌、横盘整理、交易清淡和震荡）中交易外汇、指数、大宗商品及其它"
 
-msgid "- choose the one-touch trade, the goes-outside trade, or the ends outside trade"
-msgstr "- 选择一触即付交易、保持在范围之外交易或收盘位于范围之外交易"
+msgid "- Trade when you want. Binary.com is available 24/7, even on weekends"
+msgstr "-Binary.com全天候均可进行交易（包括周末）"
 
-msgid "- choose the rise trade, higher trade, one-touch trade with a high barrier, or no-touch trade with a low barrier"
-msgstr "- 选择上涨交易、高于交易、设高障碍的一触即付交易或设低障碍的未触及交易"
-
-msgid "- choose timeframes from 10 seconds to 365 days"
-msgstr "- 选择从10 秒至 365 天的交易期限"
-
-msgid "- choose trades with durations of up to 365 days"
-msgstr "- 选择交易期限，最大为365天"
-
-msgid "- choose trades with high returns and a low probability to win, or with low returns and a high probability to win"
-msgstr "- 选择高回报但低获利概率，或低回报但高获利概率的交易"
+msgid "- Trade with the industry pioneer and holder of a patented pricing technology"
+msgstr "- 通过拥有受专利保护的报价技术的业内领先企业进行交易"
 
 msgid "- currencies, stock indices, and commodities"
 msgstr "- 货币、股票指数和大宗商品"
-
-msgid "- customize your trades to meet your needs"
-msgstr "- 自定符合您需求的交易"
-
-msgid "- dip a toe in the water with $2 or go all out for $50,000"
-msgstr "- 仅下注2美元试试，或一举投注5万美元"
 
 msgid "- from $1 to $50,000"
 msgstr "- 从 1 美元到 5 万美元"
@@ -106,77 +126,8 @@ msgstr "- 从 1 美元到 5 万美元"
 msgid "- from 10 seconds to 365 days"
 msgstr "- 从10秒到365天"
 
-msgid "- get pricing that is normally reserved for big institutional players"
-msgstr "- 获取通常仅向大型机构投资者提供的报价"
-
-msgid "- no 'slippage', no 'margin calls', no getting 'stopped out', and no hidden fees or commissions"
-msgstr "- 无滑点、无追加保证金、不会被止损离场、以及无隐藏费用或佣金"
-
-msgid "- open an account in minutes"
-msgstr "- 仅需数分钟即可完成开户"
-
-msgid "- open, fund, or withdraw from your account within minutes, 24 hours a day"
-msgstr "- 仅需数分钟即可开户或通过账户完成存取款，全天候服务"
-
-msgid "- predict if the market will end higher or lower than a price target"
-msgstr "- 预测到期时市场价格是高于还是低于目标价格"
-
-msgid "- predict if the market will rise or fall from its current level"
-msgstr "- 预测市场价格是否会从当前水平上涨或下跌"
-
-msgid "- predict if the market will stay inside two price targets, or end between or outside them"
-msgstr "- 预测市场价格是否会保持在两个目标价格之内， 或收于其范围之内/之外"
-
-msgid "- predict if the market will touch or not touch a price target"
-msgstr "- 预测市场价格是否会触及目标价格"
-
-msgid "- sell your long-term trades at market prices before they expire"
-msgstr "- 在长期合约到期前以市价售出"
-
-msgid "- set your trades on 'gut feel', or use technical or fundamental analysis"
-msgstr "- 按您的‘直觉’或使用技术或基本面分析设置交易"
-
-msgid "- start trading with as little as $5"
-msgstr "- 以低至5美元开始交易"
-
-msgid "- trade 24/7, even on weekends"
-msgstr "- 全天候均可进行交易（包括周末）"
-
-msgid "- trade Binary.com's own volatility indices, 24/7"
-msgstr "- 全天候进行Binary.com自带的波动率指数交易"
-
-msgid "- trade Binary.com's proprietary volatility indices"
-msgstr "- 进行Binary.com专有的波动率指数交易"
-
-msgid "- trade all major FX pairs"
-msgstr "- 进行所有的主要外汇货币对交易"
-
-msgid "- trade all major FX pairs, around the clock"
-msgstr "- 全天候进行所有的主要外汇货币对交易"
-
-msgid "- trade all major worldwide stock indices"
-msgstr "- 进行全球所有的主要股票指数交易"
-
-msgid "- trade currencies, indices and commodities in rising, falling, sideways, quiet and volatile markets"
-msgstr "- 在上涨、下跌、横盘整理、交易清淡和震荡市场中交易外汇、指数、大宗商品及其它"
-
-msgid "- trade major commodities such as gold and oil"
-msgstr "- 交易黄金和原油等主要大宗商品"
-
-msgid "- up/down, touch/no-touch, stays in/goes out"
-msgstr "- 上涨/下跌，触及/未触及，范围内/范围外"
-
-msgid "- we challenge you to find better returns on any competing website"
-msgstr "- 我们保证您无法找到比我们回报率更高的网站"
-
-msgid "- win the same proportional return on stakes of all values"
-msgstr "- 无论投入多少资金进行交易，均可获得同等回报率"
-
-msgid "- you know from the start what you will win or lose"
-msgstr "- 开始交易前您已知道赢或输的金额"
-
-msgid "- you will never have margin calls, gap risk, slippage costs, hidden fees or commissions"
-msgstr "- 我们将永不向您追加保证金、不会有缺口风险、或收取滑价费用、隐藏费或佣金"
+msgid "- up/down, touch/no-touch, stays between/goes outside"
+msgstr "-上涨/下跌，触及/未触及，保持在范围内/范围外"
 
 msgid "0-1 year"
 msgstr "0-1 年"
@@ -188,7 +139,7 @@ msgid "1"
 msgstr "1"
 
 msgid "1 Day"
-msgstr "1 天"
+msgstr "1天"
 
 msgid "1 Hour"
 msgstr "1小时"
@@ -203,7 +154,13 @@ msgid "1 million transactions/day"
 msgstr "1百万笔交易/天"
 
 msgid "1-2 years"
-msgstr "1-2 年"
+msgstr "1-2年"
+
+msgid "1. Choose the Underlying"
+msgstr "1. 选择标的资产"
+
+msgid "1. Underlying market"
+msgstr "1. 标的市场"
 
 msgid "10"
 msgstr "10"
@@ -247,8 +204,11 @@ msgstr "2小时"
 msgid "2 Minutes"
 msgstr "2分钟"
 
-msgid "2-way pricing"
-msgstr "双向报价"
+msgid "2. Choose the Duration of the Trade"
+msgstr "2. 选择交易期限"
+
+msgid "2. Trade type"
+msgstr "2. 交易类型"
 
 msgid "2000"
 msgstr "2000"
@@ -283,6 +243,9 @@ msgstr "2015"
 msgid "2016"
 msgstr "2016"
 
+msgid "2017"
+msgstr "2017"
+
 msgid "2h"
 msgstr "2小时"
 
@@ -294,6 +257,12 @@ msgstr "3"
 
 msgid "3 Minutes"
 msgstr "3分钟"
+
+msgid "3. Choose how you want to Trade the Market"
+msgstr "3. 选择如何进行市场交易"
+
+msgid "3. Duration"
+msgstr "3. 持续时间"
 
 msgid "30"
 msgstr "30"
@@ -319,6 +288,12 @@ msgstr "4"
 msgid "4 Hours"
 msgstr "4小时"
 
+msgid "4. Barrier(s)"
+msgstr "4. 障碍"
+
+msgid "4. Choose your Stake and Potential Return"
+msgstr "4. 选择您的投注额与潜在回报率"
+
 msgid "40 transactions or more in the past 12 months"
 msgstr "过去12月内交易40次及以上"
 
@@ -330,6 +305,9 @@ msgstr "5"
 
 msgid "5 Minutes"
 msgstr "5分钟"
+
+msgid "5. Payout"
+msgstr "5. 赔付"
 
 msgid "5m"
 msgstr "5分钟"
@@ -353,28 +331,28 @@ msgid "8h"
 msgstr "8小时"
 
 msgid "A Evening Doji Star consists of a long bullish candle, followed by a Doji that has gapped above it, then a third bearish candle that closes well within the body of the first candle and in doing so confirming the reversal. It is considered a strong bearish price reversal candlestick pattern"
-msgstr "十字夜星包括长线看涨烛图， 接下来是其上有缺口的十字图，然后是在首个烛图主体内完整收盘并同时确认翻转的第三看跌烛图。被视为强大的看跌价逆转K 线图形态"
+msgstr "十字夜星包括长线看涨烛图， 接下来是其上有缺口的十字图，然后是在首个烛图主体内完整收盘并同时确认翻转的第三看跌烛图。被视为强大的看跌价逆转K线图形态"
 
 msgid "A Smoothed Moving Average is sort of a blend between a Simple Moving Average and an Exponential Moving Average, only with a longer period applied"
 msgstr "平滑移动平均线类似简单移动平均线与指数移动平均线的混合，但应用期限较长"
 
 msgid "A Spinning Top Candlestick is a bullish or bearish candlestick with a small body. The length of the head and tail shadows can vary. Like a Doji Candlestick it represents a point of indecision with buyers and seller matched"
-msgstr "陀螺型K 线图是体型较小的看涨或看跌K 线图。影子头部和尾部长度不一。它与十字星K 线图一样代表买卖双方相符时的犹疑不决点"
+msgstr "陀螺型K 线图是体型较小的看涨或看跌K线图。影子头部和尾部长度不一。它与十字星K线图一样代表买卖双方相符时的犹疑不决点"
 
 msgid "A Stays Between trade pays out if the market stays between (does not touch) BOTH the high barrier or the low barrier at any time during the period chosen by a trader. A Goes Outside trade pays out if the market touches EITHER the high barrier or the low barrier at any time during the period chosen by a trader"
 msgstr "如果市场在所选期限内一直保持在（没有触及）高障碍或低障碍之间，所选择的“保持在范围之内”交易即可获利。如果市场在所选期限内只要触及高障碍或低障碍，所选择的“超出范围之外”交易即可获利"
 
 msgid "A bearish candlestick pattern consisting of three candles that have demonstrated the following characteristics, the first bar is a large white candlestick located within an uptrend, the middle bar is a small-bodied candle (red or white) that closes above the first white bar, the last bar is a large red candle that opens below the middle candle and closes near the center of the first bar's body"
-msgstr "看跌K 线图包含演示以下特性的三个烛形线。首个条形图是位于上涨趋势中的巨大白色K 线图，中间条形图是体积较小、在首个白条形图上方收盘的红色或白色烛形线， 最后的条形图是比较大的红色烛形线， 在中间烛形线下方开盘，在首个条形图主体中间附近收盘"
+msgstr "看跌K线图包含演示以下特性的三个烛形线。首个条形图是位于上涨趋势中的巨大白色K线图，中间条形图是体积较小、在首个白条形图上方收盘的红色或白色烛形线， 最后的条形图是比较大的红色烛形线， 在中间烛形线下方开盘，在首个条形图主体中间附近收盘"
 
 msgid "A bearish candlestick pattern that is used to predict the reversal of the current uptrend. This pattern consists of three consecutive long-bodied candlesticks that have closed lower than the previous day with each session's open occurring within the body of the previous candle"
-msgstr "看跌K 线图用于预测当前上涨趋势的翻转。此图形包含三个连续的长体K 线图，其收盘价比前一天为低，每一交易周期在前一烛形线之中开盘"
+msgstr "看跌K线图用于预测当前上涨趋势的翻转。此图形包含三个连续的长体K线图，其收盘价比前一天为低，每一交易周期在前一烛形线之中开盘"
 
 msgid "A bearish counterattack is a long white candle in an uptrend, followed by a long black candle. Closing prices of both candles are at the same price level. A bullish counterattack is a long black candle in an downtrend, followed by a long white candle. Closing prices of both candles are at the same price level"
 msgstr "看跌反攻线是上涨趋势中的长条白色烛线，其后是一长条黑色烛线。两条烛线的收盘价相同。看涨反攻线是下跌趋势中的长条黑色烛线，其后是一长条白色烛线。两条烛线的收盘价相同"
 
 msgid "A bearish separating line is a bearish continuation pattern. It is the exact opposite of the bullish separating line. There are two components to the bearish separating line: The first day is a green candlestick and the second day gaps down, opens at the first candlestick's open and closes weakly"
-msgstr "看跌分手线是连续看跌形势。它与看涨分手线正好相反。看跌分手线有两部分：第一天是绿色K 线图，第二天缺口变小，按首个K 线图开盘价开盘，及弱势收盘"
+msgstr "看跌分手线是连续看跌形势。它与看涨分手线正好相反。看跌分手线有两部分：第一天是绿色K线图，第二天缺口变小，按首个K线图开盘价开盘，及弱势收盘"
 
 msgid "A binary option is a contract purchased by a trader, which pays a pre-determined amount if their prediction is correct"
 msgstr "二元期权为交易者所买入之合约，如果预测正确即可获得预先确定的获利金额"
@@ -386,31 +364,34 @@ msgid "A bullish candlestick pattern that consists of five candles, the first da
 msgstr "看涨K 线图包含五个烛形线，第一天是长白色天，第二天缺口打开，是黑色天，第二天、第三天和第四天具小型实体，接下来是短暂的下跌走势，但保留在第一天范围内，第五天是长白色天，收盘价高于第一天的收盘水平"
 
 msgid "A bullish candlestick pattern that consists of three candles, the first bar is a large red candlestick located within a defined downtrend, the second bar is a small-bodied candle (either red or white) that closes below the first red bar and the last bar is a large white candle that opens above the middle candle and closes near the center of the first bar's body"
-msgstr "看涨K 线图包含三个烛形线。首个条形图是位于指定下跌趋势中的巨大红色K 线图，第二条形图是体积较小、在首个红条形图下方收盘的红色或白色烛形线， 最后的条形图是比较大的白色烛形线， 在中间烛形线上方开盘，在首个条形图主体中间附近收盘"
+msgstr "看涨K线图包含三个烛形线。首个条形图是位于指定下跌趋势中的巨大红色K线图，第二条形图是体积较小、在首个红条形图下方收盘的红色或白色烛形线， 最后的条形图是比较大的白色烛形线， 在中间烛形线上方开盘，在首个条形图主体中间附近收盘"
 
 msgid "A bullish candlestick pattern that consists of three candles, the first bar is a large red candlestick located within a defined downtrend, the second bar is a small-bodied candle (either red or white) that closes below the first red bar., he last bar is a large white candle that opens above the middle candle and closes near the center of the first bar's body"
-msgstr "看涨K 线图包含三个烛形线。首个条形图是位于指定下跌趋势中的巨大红色K 线图，第二条形图是体积较小、在首个红条形图下方收盘的红色或白色烛形线， 最后的条形图是比较大的白色烛形线， 在中间烛形线上方开盘，在首个条形图主体中间附近收盘"
+msgstr "看涨K 线图包含三个烛形线。首个条形图是位于指定下跌趋势中的巨大红色K线图，第二条形图是体积较小、在首个红条形图下方收盘的红色或白色烛形线， 最后的条形图是比较大的白色烛形线， 在中间烛形线上方开盘，在首个条形图主体中间附近收盘"
 
 msgid "A bullish or bearish candle followed by a doji with with a downward or uptrend gap"
 msgstr "看涨或看跌烛形图，其后是具下跌或上涨趋势缺口的十字"
 
 msgid "A candlestick chart pattern in which a large candlestick is followed by a smaller candlestick whose body is located within the vertical range of the larger body. In terms of candlestick colors, the bullish harami is a downtrend of negative-colored (black) candlesticks engulfing a small positive (white) candlestick, giving a sign of a reversal of the downward trend"
-msgstr "K 线图图表上有巨大K 线图，其后是位于较大K 线图垂直面范围内的较小体形K 线图。关于K 线图的颜色，看涨孕线是黑负面色下跌走势K 线图中包含小型白正面色K 线图，提供下跌走势的反转信号"
+msgstr "K线图图表上有巨大K线图，其后是位于较大K线图垂直面范围内的较小体形K 线图。关于K线图的颜色，看涨孕线是黑负面色下跌走势K线图中包含小型白正面色K线图，提供下跌走势的反转信号"
 
 msgid "A candlestick with a long black body (long line) represents a bearish force in the market. The price of the stock was up and down in a wide range, opening near the high and closing near the low of the day. One with a long white line represents a bullish force in the market. The price of the stock was up and down in a wide range, opening near the low of the day and closing near the high"
-msgstr "具长黑体形（长线）的K 线图代表市场看跌力量。股票价格大幅起伏，以接近当日最高水平开盘，并以接近当日最低水平收盘。具长白线的烛形图表示市场看涨力量。股票价格大幅起伏，以接近当日最低水平开盘，并以接近当日最高水平收盘"
+msgstr "具长黑体形（长线）的K线图代表市场看跌力量。股票价格大幅起伏，以接近当日最高水平开盘，并以接近当日最低水平收盘。具长白线的烛形图表示市场看涨力量。股票价格大幅起伏，以接近当日最低水平开盘，并以接近当日最高水平收盘"
 
 msgid "A candlestick with very long upper and lower shadows and a small real body on a Japanese candlestick chart. It shows that the market is losing its direction bias that it had before this candle appeared"
-msgstr "带特长上下暗影的K 线图，并在日本K 线图图表中具较小真实体形。它显示市场失去了在此烛形图出现以前所具的市场方向偏差"
+msgstr "带特长上下暗影的K线图，并在日本K线图图表中具较小真实体形。它显示市场失去了在此烛形图出现以前所具的市场方向偏差"
 
 msgid "A chart pattern that consists of a small white candlestick with short shadows or tails followed by a large black candlestick that eclipses or 'engulfs' the small white one"
-msgstr "图表形式包括一个拥有短小暗影或尾巴的小型白色K 线图，还有个将此小型白色烛线包围住的大型黑色K 线图"
+msgstr "图表形式包括一个拥有短小暗影或尾巴的小型白色K线图，还有个将此小型白色烛线包围住的大型黑色K 线图"
 
 msgid "A derivative is a financial instrument whose value is determined by reference to an underlying market. Derivatives are commonly traded in the inter-bank market, and binaries are one of the simplest forms of derivatives"
 msgstr "衍生品是一种通过参照基础市场来定价的金融工具，通常在银行间市场交易，而二元期权是衍生工具中最为普通的一种产品形式"
 
+msgid "A lookback contract has a payout that depends on the optimum high or low achieved by the market. The option allows the holder to \"look back\" over time to determine the payout"
+msgstr ""
+
 msgid "A medium to long bullish or bearish candlestick with the key defining trait being no head or tail shadows"
-msgstr "长形看涨或看跌K 线图媒介，其主要特性是头部或尾部无暗影"
+msgstr "长形看涨或看跌K线图媒介，其主要特性是头部或尾部无暗影"
 
 msgid "A panel featuring industry leaders awards BetOnMarkets.com 'Financial Betting Operator of the Year' over two other finalists. It's a major victory for our brand and further recognition of our world-beating service. Ten years on, and going from strength to strength"
 msgstr "BetOnMarkets.com 淘汰了其他两个决赛对手，赢得由行业领袖专家团评选的“年度最佳金融投注运营商”奖项。这对我们的品牌来说是一场很重大的胜利，并进一步肯定了我们首屈一指的卓越服务。十年过去了，我们的实力越来越强"
@@ -422,13 +403,13 @@ msgid "A technical momentum indicator that compares a security's closing price t
 msgstr "将证卷的收盘价与某个固定周期中的价格范围相比较的技术性动量指标。可通过周期调整或取结果的移动平均值将振荡器对市场走势的敏感度降低"
 
 msgid "A technical trading pattern in which three candlesticks form what appears to be a sandwich on the trader's screen. Stick sandwiches will have the middle candlestick oppositely colored of the candlesticks on either side of it, both of which will have a larger trading range than the middle candlestick. Stick sandwich patterns can occur in both bearish and bullish indications"
-msgstr "交易员屏幕上由三个K 线图形成类似三明治形的技术性交易形式。豎狀三明治的中间K 线图颜色与两旁K 线图的颜色呈对比。两旁烛形线的交易范围比中间K 线图大。看涨和看跌指标市场均可能发生豎狀三明治形式"
+msgstr "交易员屏幕上由三个K线图形成类似三明治形的技术性交易形式。竖狀三明治的中间K线图颜色与两旁K线图的颜色呈对比。两旁烛形线的交易范围比中间K线图大。看涨和看跌指标市场均可能发生竖狀三明治形式"
 
 msgid "A tick is the minimum upward or downward movement in the price of a market"
 msgstr "跳动点指市场价格的最小上涨或下跌数值"
 
 msgid "A trend indicated by a large candlestick followed by a doji that is located within the top and bottom of the candlestick's body. This indicates that the previous trend is about to reverse"
-msgstr "由巨大K 线图及位于K 线图体内上下部位的十字显示走势。这表示之前的走势即将翻转"
+msgstr "由巨大K线图及位于K线图体内上下部位的十字显示走势。这表示之前的走势即将翻转"
 
 msgid "A white candle in an upward price trend followed by a doji whose lower shadow remains above the prior candle's high. The third day is a black candle with an upper shadow below the doji's low"
 msgstr "价格上涨走势中一个白色烛形线及底部暗影保留在前烛形线顶部的十字。第三天是一个黑色烛形线，其上部暗影位于十字底部"
@@ -457,6 +438,9 @@ msgstr "操作"
 msgid "Active"
 msgstr "活跃"
 
+msgid "Active Since"
+msgstr "开始活跃日期"
+
 msgid "Add comparisons"
 msgstr "添加比较"
 
@@ -472,6 +456,9 @@ msgstr "添加/删除指标"
 msgid "Add/remove indicators"
 msgstr "添加/删除指标"
 
+msgid "Address"
+msgstr ""
+
 msgid "Admin"
 msgstr "管理中心"
 
@@ -481,20 +468,29 @@ msgstr "高级阻滞 (CDLADVANCEBLOCK)"
 msgid "All durations"
 msgstr "所有合约期限"
 
+msgid "All fields are optional. If you wish to copy all assets and trade types, please leave all fields empty"
+msgstr ""
+
 msgid "All market conditions"
 msgstr "所有市场条件"
+
+msgid "All market conditions and durations"
+msgstr "所有市场条件和期限"
 
 msgid "All markets"
 msgstr "所有市场"
 
-msgid "All markets, all conditions"
-msgstr "所有市场，所有环境"
+msgid "All markets and conditions"
+msgstr "所有市场和条件"
 
 msgid "All payouts"
 msgstr "所有赔付额"
 
 msgid "All times are in GMT (Greenwich Mean Time)"
 msgstr "所有时间均采用格林威治标准时间（GMT）"
+
+msgid "Allow others to copy your trades"
+msgstr "允许他人复制您的交易"
 
 msgid "Amount"
 msgstr "金额"
@@ -568,11 +564,17 @@ msgstr "资产"
 msgid "Asset Index"
 msgstr "资产指数"
 
+msgid "Assets"
+msgstr "资产"
+
 msgid "Aug"
 msgstr "八月"
 
 msgid "August"
 msgstr "八月"
+
+msgid "Available 24/7"
+msgstr "全天候无休"
 
 msgid "Available Currencies"
 msgstr "可用的货币"
@@ -584,10 +586,25 @@ msgid "Average Directional Movement Index Rating (ADXR)"
 msgstr "平均趋向指标评估 (ADXR)"
 
 msgid "Average Directional Movement Rating quantifies momentum change in the ADX. It is calculated by adding two values of ADX (the current value and a value n periods back), then dividing by two"
-msgstr "平均趋向评估计量ADX中的动量变化。计算方法是将ADX的两个数值（当前数值与前n周期数值）相加，然后除于二"
+msgstr "平均趋向评估计量ADX中的动量变化。计算方法是将ADX的两个数值（当前数值与前n周期数值）相加，然后除以二"
 
 msgid "Average True Range (ATR)"
 msgstr "平均真实波动范围 (ATR)"
+
+msgid "Avg. Duration"
+msgstr "平均持续时间"
+
+msgid "Avg. Duration of Open Positions"
+msgstr ""
+
+msgid "Avg. Loss"
+msgstr "平均损失"
+
+msgid "Avg. Profit"
+msgstr "平均利润"
+
+msgid "Award-winning online trading platform"
+msgstr "屡获殊荣的在线交易平台"
 
 msgid "Awesome Oscillator (AO)"
 msgstr "动量震荡指标 (AO)"
@@ -614,16 +631,10 @@ msgid "Barrier(s)"
 msgstr "障碍"
 
 msgid "Bearish: This is an end-of-trend pattern composed of three candlesticks in an uptrend. The second candlestick must open close to the close of the previous day. The last candlestick should be short and can form an upside gap. There could also be a selling shadow.The pattern represents a weakness in a rise with a risk of consolidation and possible reversal. Bullish: This is an end-of-trend pattern composed of three candlesticks in a downtrend. The second candlestick must open close to the close of the previous day. the last candlestick must be short. The pattern represents a weakness and consolidation and a possible reversal in trend"
-msgstr "看跌：显示趋势到了尽头的形式，由三个上升趋势K 线图组成。第二K 线图必须以与前一天收盘价相近的价格开盘。最后的K 线图的长度须短，并可形成向上缺口。另外还可能会有抛售暗影。走势形式显示上涨乏力，存在合并风险与反转的可能性。看涨：显示趋势到了尽头的形式，由三个下跌趋势K 线图组成。第二K 线图必须以与前一天收盘价相近的价格开盘。最后的K 线图的长度须长。形式显示乏力及合并趋势，并存在反转的可能性"
+msgstr "看跌：显示趋势到了尽头的形式，由三个上升趋势K线图组成。第二K线图必须以与前一天收盘价相近的价格开盘。最后的K线图的长度须短，并可形成向上缺口。另外还可能会有抛售暗影。走势形式显示上涨乏力，存在合并风险与反转的可能性。看涨：显示趋势到了尽头的形式，由三个下跌趋势K线图组成。第二K线图必须以与前一天收盘价相近的价格开盘。最后的K线图的长度须长。形式显示乏力及合并趋势，并存在反转的可能性"
 
 msgid "Belt-hold (CDLBELTHOLD)"
 msgstr "执带 (CDLBELTHOLD)"
-
-msgid "Benchmarked prices"
-msgstr "基准价格"
-
-msgid "Benefits of binary trading"
-msgstr "二元交易的好处"
 
 msgid "Best Fixed-Odds Financial Trading Provider' award by Shares Magazine UK"
 msgstr "英国《Shares Magazine》颁发的“最佳固定赔率金融交易提供商”奖项"
@@ -632,7 +643,7 @@ msgid "BetOnMarkets goes live"
 msgstr "BetOnMarkets 正式上线"
 
 msgid "BetOnMarkets.com has over 400,000 clients in its database and reach the US$ 1 billion milestone in only our 13th year, making us one of the leading fixed-odds trading providers"
-msgstr "BetOnMarkets.com 的数据库中拥有超过400,000个客户，并仅在第13年即达到10亿美元的里程碑，使我们成为领先的固定赔率交易提供商之一"
+msgstr "BetOnMarkets.com 的数据库中拥有超过400,000个客户，在第13年即达到10亿美元的里程碑，使我们成为领先的固定赔率交易提供商之一"
 
 msgid "BetOnMarkets.com increases payouts to 100,000 USD, EUR, GBP and AUD"
 msgstr "BetOnMarkets.com 把赔付额增至100,000美元、欧元、英镑及澳元"
@@ -646,6 +657,9 @@ msgstr "BetOnMarkets.com 于1999年推出，目前营业额达10亿美元"
 msgid "Betonmarkets.com"
 msgstr "Betonmarkets.com"
 
+msgid "Betting system and method"
+msgstr "博彩系统和方法"
+
 msgid "Bill Williams"
 msgstr "Bill Williams"
 
@@ -655,8 +669,8 @@ msgstr "Binary Bot 已发布"
 msgid "Binary KK granted Japan license"
 msgstr "Binary KK 被授予日本牌照"
 
-msgid "Binary Trading is simple to learn and to execute"
-msgstr "二元交易很容易学会，执行方法也很简单"
+msgid "Binary Options Basics"
+msgstr "二元期权基础知识"
 
 msgid "Binary granted Investment Services license"
 msgstr "Binary 被授予投资服务牌照"
@@ -667,8 +681,8 @@ msgstr "Binary 开设日本办公室"
 msgid "Binary option"
 msgstr "二元期权"
 
-msgid "Binary options or other financial derivatives"
-msgstr "二元期权或其他金融衍生品"
+msgid "Binary options are easy to understand. They're called 'binary' because there can be only two outcomes - win or lose. If your prediction is correct, you receive a payout that is determined at the start of the trade. If not, you just lose your initial stake"
+msgstr "二元期权很容易了解。它被称为“二元”是因为只能有2种结果：赢或输。如果预测正确，您会获得交易开始时设定的赔付额。不然，您将损失初始资金。"
 
 msgid "Binary options or other financial derivatives trading experience"
 msgstr "二元期权或其他金融衍生品交易经验"
@@ -676,14 +690,17 @@ msgstr "二元期权或其他金融衍生品交易经验"
 msgid "Binary options or other financial derivatives trading frequency"
 msgstr "二元期权或其他金融衍生品交易频率"
 
+msgid "Binary options trading experience"
+msgstr ""
+
+msgid "Binary options trading frequency"
+msgstr ""
+
 msgid "Binary trading is flexible"
 msgstr "二元期权交易很灵活"
 
 msgid "Binary trading is ideal for both individuals and market professionals"
 msgstr "个人和市场专业人员都非常适合参与二元期权交易"
-
-msgid "Binary trading is very simple"
-msgstr "二元期权交易十分简单"
 
 msgid "Binary's Japanese subsidiary Binary KK is licensed by the KLFB as a Type 1 Financial Instruments Business in Japan"
 msgstr "Binary 日本子公司 Binary KK 由 KLFB 授予日本第1类金融工具商务许可证"
@@ -694,8 +711,8 @@ msgstr "Binary 的日本子公司 Binary KK 在东京开设了办公室，并开
 msgid "Binary's Maltese subsidiary Binary Investments (Europe) Ltd. is granted a Category 3 Investment Services license by the Malta Financial Services Authority"
 msgstr "Binary 的马耳他附属公司 Binary Investments (Europe) Ltd. 由 Malta Financial Services Authority 授予3级投资服务牌照"
 
-msgid "Binary's platform transacts on average 15 transactions per second, 24/7"
-msgstr "Binary 平台平均每秒钟进行15宗交易，全天候提供服务，整年无休"
+msgid "Binary's platform transacts on average 20 transactions per second, 24/7"
+msgstr "Binary平台平均每秒钟进行20宗交易，全天候提供服务，整年无休"
 
 msgid "Binary.com"
 msgstr "Binary.com"
@@ -706,8 +723,14 @@ msgstr "Binary.com︰ Webtrader"
 msgid "Binary.com Shop introduced"
 msgstr "新增Binary.com商店"
 
+msgid "Binary.com announces plans for an"
+msgstr "Binary.com宣布计划"
+
 msgid "Binary.com continues to innovate and grow"
 msgstr "Binary.com不断创新、日渐成长"
+
+msgid "Binary.com has created Volatility Indices that you can trade 24/7. You can trade these on all types of contract"
+msgstr "Binary.com已经创建可让您全天候交易的波动率指数。您可通过所有合约类型交易此类指数"
 
 msgid "Binary.com has earned an enviable reputation for our commitment to high ethical standards and the quality of the trading experience we provide"
 msgstr "Binary.com竭诚达到极高的道德标准和优质的交易体验，因此获得了令人羡慕的声誉"
@@ -724,20 +747,23 @@ msgstr "Binary.com已拥有百万用户，到达了一个历史性的里程碑�
 msgid "Binary.com introduces an"
 msgstr "Binary.com引入了"
 
+msgid "Binary.com is awarded Best Binary Options Broker by the UK-based Online Personal Wealth Awards 2017, as voted by investors worldwide"
+msgstr "2017 年英国网上个人财富奖中，Binary.com被全球投资人评选为最佳二元期权代理商"
+
 msgid "Binary.com is entirely web-based and requires no software installation"
 msgstr "Binary.com完全基于网络，无需安装任何软件即可交易"
 
 msgid "Binary.com is honoured as the world's \"Best Binary Options Broker\" at the 16th annual MENA International Financial Conference and Exhibition, hosted in Dubai"
 msgstr "在迪拜主办的第16 届年度中东和北非国际金融会议和展览会中，Binary.com被誉为世界上\"最佳二元期权经纪商\""
 
-msgid "Binary.com is one of the oldest and most respected names in online binary trading"
-msgstr "Binary.com是在线二元交易行业中历史最悠久、声誉最好的佼佼者之一"
-
-msgid "Binary.com is owned and operated by the Binary Ltd. group of companies. For more information, visit our history page"
+msgid "Binary.com is owned and operated by the Binary Group Ltd. group of companies. For more information, visit our history page"
 msgstr "Binary.com由Binary集团有限公司拥有和经营。欲了解更多信息，请参阅我们的历史页面"
 
-msgid "Binary.com is tailored to traders of all levels"
-msgstr "Binary.com专为各种水平的交易者提供服务"
+msgid "Binary.com launches Bitcoin (BTC) accounts for non-EU customers"
+msgstr "Binary.com为非欧盟客户推出比特币 (BTC) 账户"
+
+msgid "Binary.com launches Bitcoin accounts"
+msgstr "Binary.com推出比特币账户"
 
 msgid "Binary.com launches an"
 msgstr "Binary.com启动了"
@@ -745,17 +771,17 @@ msgstr "Binary.com启动了"
 msgid "Binary.com offers a range of common deposit and withdrawal methods, from credit and debit cards to bank wires, e-cash and e-wallets"
 msgstr "Binary.com%1提供各种常见的存取款方式，包括借记卡和信用卡、银行电汇、电子现金及电子钱包等"
 
-msgid "Binary.com offers a virtual-money account so you can get the hang of trading binaries. Why not open a free $10k fully-functional virtual-money account, and start learning how to trade"
-msgstr "Binary.com提供虚拟资金账户，以便投资者掌握二元期权交易的技巧。何不免费开立一个1万美元、功能齐全的虚拟资金账户，并开始学习如何交易呢"
+msgid "Binary.com offers a virtual-money account so you can get the hang of trading binaries. Why not"
+msgstr "Binary.com 提供虚拟货币账户, 方便您得到二元期权交易的窍门。何不试试"
 
 msgid "Binary.com offers new ways to trade"
 msgstr "Binary.com提供新的交易方式"
 
+msgid "Binary.com offers you four ways to trade a particular asset"
+msgstr "Binary.com为每一资产提供以下四种交易方式"
+
 msgid "Binary.com opens an office in the QSentral office building in central Kuala Lumpur to further expand its IT development team"
 msgstr "Binary.com在吉隆坡市中心QSentral 办公大楼开设办公室，进一步扩大 IT 开发团队"
-
-msgid "Binary.com prices are benchmarked against the interbank options market, so you always get best-in-class prices for your trades"
-msgstr "Binary.com的报价基于银行间期权市场基准价格，让您交易时一直可获得最优惠的报价"
 
 msgid "Binary.com reaches $2 billion turnover since starting in 1999"
 msgstr "Binary.com从1999年开始运营，目前营业额达到 20 亿美元"
@@ -765,6 +791,21 @@ msgstr "Binary.com%1注册用户已达一百万人"
 
 msgid "Binary.com takes home first prize in the Financial Betting Operator category at the prestigious 2015 EGR Operator Awards ceremony, hosted in London"
 msgstr "Binary.com在久负盛名的伦敦EGR操作员颁奖仪式中荣获2015年金融博彩操作员第一奖"
+
+msgid "Binary.com's Continuous Indices are the Volatility 10 Index, Volatility 25 Index, Volatility 50 Index, Volatility 75 Index and Volatility 100 Index. These indices correspond to simulated markets with constant volatilities of 10%, 25%, 50%, 75% and 100%"
+msgstr "Binary.com的连续指数包括波动率10指数、波动率25指数、波动率50指数、波动率75指数及波动率100指数。这些指数跟具10%、25%、50%、75% 和100% 持续波动率的模拟市场对应"
+
+msgid "Binary.com's OTC Indices and stocks are sourced from the over-the-counter market and provide you with an alternative means of trading stock indices and stocks - available from sources outside of the centralised exchanges"
+msgstr "Binary.com的 OTC 指数和股票来自场外交易市场，并为您提供源自中央交易所外的替代式股票指数和股票交易方式"
+
+msgid "Binary.com's OTC Indices and stocks offer the benefit of real-time charts and pricing. Enjoy even more exciting opportunities to trade our featured market indices and stocks through this new real-time offering"
+msgstr "Binary.com的OTC指数和股票提供实时图表和定价优势。此崭新实时产品让您在我们独特市场进行指数和股票交易，享受更多令人兴奋的机会"
+
+msgid "Binary.com's Smart FX are smart markets that measure the value of a currency against a basket of major currencies"
+msgstr "Binary.com的智能外汇是衡量一种货币相对一篮子主要货币价值的智能型市场"
+
+msgid "Binary.com's Volatility Indices are based on a cryptographically secure random number generator audited for fairness by an independent third party"
+msgstr "Binary.com的波动率指数由经过加密的安全随机数字生成器生成，并由独立的第三方审计其公平度"
 
 msgid "Binary.com's systems are now processing in excess of 1 million transactions/day (including virtual accounts)"
 msgstr "Binary.com系统每天处理超过百万笔交易（包括虚拟账户）"
@@ -787,8 +828,8 @@ msgstr "突破 (CDLBREAKAWAY)"
 msgid "Browser upgrade required"
 msgstr "需更新浏览器"
 
-msgid "But there's no need to wait until expiry. You can sell back long-term trades at any time to profit from changing market conditions"
-msgstr "但不需等到合约到期。您可随时利用市场环境变化售出长期合约获利"
+msgid "Bull Market and Bear Market Indices start at 00:00 GMT each day, replicating a bullish and bearish market respectively"
+msgstr "每天，牛市和熊市指数于格林尼治时间 00:00 时开始，分别复制看涨和看跌市场"
 
 msgid "Buy Price"
 msgstr "购入价"
@@ -801,6 +842,15 @@ msgstr "通过点击"
 
 msgid "By clicking OK, you confirm that you have read and accepted the updated"
 msgstr "通过点击OK键，您确认已经阅读并接受更新的"
+
+msgid "By default, all clients are treated as retail. Do you prefer to be treated as a professional client if you match the necessary criteria?"
+msgstr ""
+
+msgid "CFD trading experience"
+msgstr ""
+
+msgid "CFD trading frequency"
+msgstr ""
 
 msgid "Can be used to buy and sell contracts, renew expired purchases, and top-up virtual-money accounts."
 msgstr "可用于合同购入与售出，给到期的购入合同延期，以及给虚拟金钱账户存入资金。"
@@ -821,16 +871,16 @@ msgid "Candles"
 msgstr "蜡烛"
 
 msgid "Candlestick down-color"
-msgstr "K 线图下跌颜色"
+msgstr "K线图下跌颜色"
 
 msgid "Candlestick down-line"
-msgstr "K 线图下跌线"
+msgstr "K线图下跌线"
 
 msgid "Candlestick up-color"
-msgstr "K 线图上升颜色"
+msgstr "K线图上升颜色"
 
 msgid "Candlestick up-line"
-msgstr "K 线图上升线"
+msgstr "K线图上升线"
 
 msgid "Cash Balance"
 msgstr "现金余额"
@@ -840,9 +890,6 @@ msgstr "钱德克罗止损 (CKS)"
 
 msgid "Chande Momentum Oscillator (CMO)"
 msgstr "钱德动量震荡指标 (CMO)"
-
-msgid "Change Backend Server"
-msgstr "更换后端服务器"
 
 msgid "Change password"
 msgstr "更改密码"
@@ -865,59 +912,17 @@ msgstr "图表模板"
 msgid "Chart type"
 msgstr "图表类型"
 
-msgid "Choose Asian Rise/Fall when you want to profit from the market ending higher or lower than the average price"
-msgstr "如您想从收市价高于或低于平均价格中获利，请选择亚洲期权上涨/下跌"
-
-msgid "Choose Ends In/Out to profit from the market stopping inside or outside two price targets at the end of the time period"
-msgstr "选择“范围之内/之外”收盘，如市场价格在合约到期时处于两个目标价格范围之内或之外即可获利"
-
-msgid "Choose Higher/Lower when you want to profit from the market ending higher or lower than a price target"
-msgstr "如您想从收市价高于或低于目标价格中获利，请选择高于/低于期权"
-
-msgid "Choose Rise/Fall when you want to profit from the market rising or falling from its current level"
-msgstr "如您想从市场价格从当前水平上涨或下跌中获利，请选择上涨/下跌期权"
-
-msgid "Choose Stays In/Out to profit from the market staying inside or going outside two price targets any time during the contract period"
-msgstr "选择“保持在某个范围之内/之外”收盘，如市场价格在合约期限内的任何时间都保持在两个目标价位范围之内或超出范围之外即可获利"
-
-msgid "Choose Touch / No Touch when you want to profit from the market touching or not touching a target any time during the contract period"
-msgstr "如您想从市场价格在合约期限内触及或未触及目标价格而获利，您可以选择交易“触及/未触及”期权"
-
-msgid "Choose a trade type"
-msgstr "选择交易类型"
-
-msgid "Choose digit if you want to profit from predicting the last decimal digit of the spot"
-msgstr "如您想通过预测现货价格最后小数点数值而获利，请选择“数字”期权"
-
-msgid "Choose from over 1 million trades"
-msgstr "1百多万种交易类型供选择"
-
-msgid "Choose from over a million possible trades at any time"
-msgstr "随时从1百多万种交易任选一种开始交易"
+msgid "Choose from five types of markets and their respective assets"
+msgstr "从五种市场与相关资产中选择"
 
 msgid "Choose password"
 msgstr "选择密码"
 
-msgid "Choose the barrier(s)"
-msgstr "选择障碍"
+msgid "Choose the Touch/No Touch trade if you want to predict the market touching or not touching a target any time during the contract period"
+msgstr "如您希望通过预测市场在合约期限内是否会触及目标价格而获利，您可以选择交易“触及/未触及”期权"
 
-msgid "Choose the duration"
-msgstr "选择交易期限"
-
-msgid "Choose the market, the price target, the time period, and how much you wish to win"
-msgstr "选择市场、目标价格、合同期限和回报金额"
-
-msgid "Choose the market, the price targets, the time period, and how much you wish to win"
-msgstr "选择市场、目标价格、合同期限和回报金额"
-
-msgid "Choose the market, the time period, and how much you wish to win"
-msgstr "选择市场、合同期限和回报金额"
-
-msgid "Choose the payout"
-msgstr "选择赔付额"
-
-msgid "Choose the underlying market"
-msgstr "选择标的市场"
+msgid "Choose the asset you wish to trade, such as gold, oil, stocks, or currency pairs. The value of a binary option is derived from the price of the underlying asset. One advantage of trading binary options is that you are not buying or selling the actual asset, only a contract that determines how that asset performs"
+msgstr "选择您要交易的资产，如黄金、原油、股票或货币对。二元期权的价值基于标的资产价格。二元期权交易的一个优势就是您并非买卖实际资产， 只是一个确认资产表现状况的合约"
 
 msgid "Choose your pereferred payment agent"
 msgstr "选择您较倾向的支付代理"
@@ -931,8 +936,14 @@ msgstr "波动指数 (CHOP)"
 msgid "Chrome"
 msgstr "Chrome"
 
+msgid "Citizenship"
+msgstr ""
+
 msgid "Click to log in with your Binary.com account"
 msgstr "点击登录Binary.com账户"
+
+msgid "Client funds"
+msgstr "客户基金"
 
 msgid "Close"
 msgstr "关"
@@ -949,6 +960,9 @@ msgstr "收盘无影线 (CDLCLOSINGMARUBOZU)"
 msgid "Commodities"
 msgstr "大宗商品"
 
+msgid "Commodities - Major commodities such as gold and oil"
+msgstr "大宗商品 - 黄金和原油等主要大宗商品"
+
 msgid "Commodities are resources that are grown or extracted from the ground, such as silver, gold and oil. On Binary.com, they are priced in US dollars"
 msgstr "大宗商品是生长在地上或从地面开采的宝贵资源，例如白银、黄金和石油。在Binary.com，大宗商品按美元报价"
 
@@ -963,6 +977,15 @@ msgstr "顺势指标 (CCI)"
 
 msgid "Comparisons"
 msgstr "比较"
+
+msgid "Competitive and transparent pricing"
+msgstr "竞争及透明的价格"
+
+msgid "Computer system and method for speculating on a financial market"
+msgstr "为预测金融市场而设的电脑系统和方法"
+
+msgid "Computer trading system for offering custom financial market speculations"
+msgstr "提供自订金融市场预测的电脑交易系统"
 
 msgid "Conditions"
 msgstr "条件"
@@ -982,6 +1005,9 @@ msgstr "继续"
 msgid "Continue Trading"
 msgstr "继续交易"
 
+msgid "Continuous Indices"
+msgstr "连续指数"
+
 msgid "Contract"
 msgstr "合约"
 
@@ -991,8 +1017,14 @@ msgstr "合约期间"
 msgid "Contracts"
 msgstr "合约"
 
+msgid "Copier"
+msgstr "复制者"
+
 msgid "Coppock Curve (CC)"
 msgstr "估波曲线 (CC)"
+
+msgid "Copy Trading"
+msgstr "复制交易"
 
 msgid "Counterattack (CDLCOUNTERATTACK)"
 msgstr "反攻 (CDLCOUNTERATTACK)"
@@ -1015,8 +1047,8 @@ msgstr "借方/贷方"
 msgid "Crosshair"
 msgstr "交叉线"
 
-msgid "Currencies"
-msgstr "货币"
+msgid "Currencies - All major Forex pairs"
+msgstr "货币 - 所有主要外汇货币对"
 
 msgid "Current Level"
 msgstr "当前价位"
@@ -1036,14 +1068,17 @@ msgstr "当前指标"
 msgid "Current password"
 msgstr "当前密码"
 
-msgid "Current regulations require that you provide us the following"
-msgstr "依据当前法规，我们需要您提供以下资料"
-
 msgid "Current time"
 msgstr "当前时间"
 
 msgid "Custom Theme"
 msgstr "自定义主题"
+
+msgid "Daily Reset Indices"
+msgstr "每日重置指数"
+
+msgid "Daily Reset Indices replicate markets with a bullish and bearish trend, with a constant volatility"
+msgstr "每日重置指数以持续波动率复制市场的看涨和看跌趋势"
 
 msgid "Daily limit on losses"
 msgstr "每日损失限额"
@@ -1058,7 +1093,7 @@ msgid "Dark Cloud Cover (CDLDARKCLOUDCOVER)"
 msgstr "乌云盖顶 (CDLDARKCLOUDCOVER)"
 
 msgid "Dark Cloud Cover is a bearish candlestick reversal pattern that occurs when a red bearish candlestick (close price below open price) on day 2 closes below the middle of day 1 bullish candlestick (close price above open price). We will be using this pattern to sell rallies in a bearish currency market"
-msgstr "乌云盖顶是看跌K 线图逆转形态，当第二天的红色看跌K 线图（收盘价低于开盘价）收盘价低于第一天的看涨K 线图（收盘价高于开盘价）的中间价位时即会发生。我们将使用此形态在看涨货币市场中逢高卖出"
+msgstr "乌云盖顶是看跌K线图逆转形态，当第二天的红色看跌K线图（收盘价低于开盘价）收盘价低于第一天的看涨K线图（收盘价高于开盘价）的中间价位时即会发生。我们将使用此形态在看涨货币市场中逢高卖出"
 
 msgid "Dark Green"
 msgstr "深绿"
@@ -1135,6 +1170,9 @@ msgstr "差异"
 msgid "Digits"
 msgstr "数字"
 
+msgid "Digits let you predict the last decimal digit of the spot price. There are three types of Digits trades"
+msgstr "让您预测现货价格最后小数点数值的数字。共有三种数字交易"
+
 msgid "Directional Movement (DMI) is actually a collection of three separate indicators combined into one. Directional Movement consists of the Average Directional Index (ADX), Plus Directional Indicator (+DI) and Minus Directional Indicator (-DI)"
 msgstr "动向指标 (DMI) 其实是由三个不同的指标组成， 包括平均动向指标 (ADX)、正动向指标 (+DI) 和负动向指标 (-DI)"
 
@@ -1144,13 +1182,13 @@ msgstr "动向指数 (DX)"
 msgid "Do I need to deposit any funds to open an account?"
 msgstr "我需要入金才能开户吗？"
 
-msgid "Do I need to send any documents?"
-msgstr "我是否需要提交一些文件？"
-
 msgid "Do you offer virtual-money accounts?"
 msgstr "是否提供虚拟资金账户？"
 
 msgid "Do you want to install Webtrader chrome extension?"
+msgstr "是否安装Webtrader chrome扩展程序？"
+
+msgid "Do you want to install the Webtrader chrome extension?"
 msgstr "是否安装Webtrader chrome扩展程序？"
 
 msgid "Doji (CDLDOJI)"
@@ -1160,7 +1198,7 @@ msgid "Doji Star (CDLDOJISTAR)"
 msgstr "十字星 (CDLDOJISTAR)"
 
 msgid "Doji form when a security's open and close are virtually equal. The length of the upper and lower shadows can vary and the resulting candlestick looks like a cross, inverted cross or plus sign"
-msgstr "当证卷的开盘价与收盘价几乎相等时就会形成十字线。上下暗影长度可能不相同，所形成的K 线图呈交叉形、反交叉形或十字形"
+msgstr "当证卷的开盘价与收盘价几乎相等时就会形成十字线。上下暗影长度可能不相同，所形成的K线图呈交叉形、反交叉形或十字形"
 
 msgid "Don't have an account yet? Sign up and get a $10,000 virtual account"
 msgstr "还未开立账户？请注册并获取10,000美元虚拟账户"
@@ -1182,6 +1220,9 @@ msgstr "双指数移动平均线 (DEMA)"
 
 msgid "Double click the object to remove"
 msgstr "双击对象执行删除"
+
+msgid "Down - Predict that the market will end lower than the average price"
+msgstr "下跌 - 预测市价在收盘时低于平均价格"
 
 msgid "Download"
 msgstr "下载"
@@ -1234,11 +1275,14 @@ msgstr "EGR操作员奖"
 msgid "EURUSD"
 msgstr "欧元美元"
 
+msgid "Each binary option contract runs for a set time - with Binary.com you can choose a contract that runs between 10 seconds and 365 days"
+msgstr "每个二元期权合约都有固定期限 - 在Binary.com，您可选择从10秒至365天之间的任何期限"
+
 msgid "Each binary option is a prediction on the future movement of an underlying market"
 msgstr "二元期权交易是对标的市场未来变化的预测"
 
-msgid "Each binary trade is for a pre-determined payout amount. You win the payout if your prediction is correct"
-msgstr "每个二元期权交易都有个预先确定的赔付额。如您的预测正确，将赢得赔付额"
+msgid "Each trade comes with a pre-determined payout that you will see after adjusting each parameter. You ll win the payout if your prediction is correct. If not, you will only lose your initial stake"
+msgstr "每次调整参数后您将看到每个交易的预先设定赔付额。一旦您预测正确即可赢得赔付额，否则您将仅损失初始投注额"
 
 msgid "Edge"
 msgstr "边缘"
@@ -1258,8 +1302,11 @@ msgstr "结束时间"
 msgid "Ends Between/Ends Outside trades"
 msgstr "“收于范围之内/之外”的交易"
 
-msgid "Ends In/Out"
-msgstr "“范围之内/之外”收盘"
+msgid "Ends Between/Ends Outside   Predict that the market stops inside or outside two price targets at the end of the time period"
+msgstr "到期时价格处于某个范围之内/之外  预测市场价格在合约到期时处于两个目标价格范围之内或之外"
+
+msgid "Ends Between/Outside"
+msgstr "到期时价格处于某个范围之内/之外"
 
 msgid "Ends in"
 msgstr "范围之内收盘"
@@ -1300,6 +1347,9 @@ msgstr "估计净值"
 msgid "Even"
 msgstr "偶"
 
+msgid "Even/Odd - Predict that the last digit is even or odd after the last tick"
+msgstr "偶/奇-预测最后跳动点的最后数字为偶数或奇数"
+
 msgid "Evening Doji Star (CDLEVENINGDOJISTAR)"
 msgstr "十字夜星 (CDLEVENINGDOJISTAR)"
 
@@ -1329,9 +1379,6 @@ msgstr "指数移动平均线 (EMA)"
 
 msgid "Fall"
 msgstr "下跌"
-
-msgid "Falling markets"
-msgstr "下跌市场"
 
 msgid "Family name"
 msgstr "姓氏"
@@ -1369,14 +1416,8 @@ msgstr "金融"
 msgid "Financial Information"
 msgstr "金融信息"
 
-msgid "Financial Security"
-msgstr "财务安全"
-
 msgid "Financial information"
 msgstr "财务信息"
-
-msgid "Financial rewards"
-msgstr "金融奖励"
 
 msgid "Firefox"
 msgstr "Firefox"
@@ -1390,8 +1431,11 @@ msgstr "名字"
 msgid "First, you need to set the parameters of your trade. Here's what you need to consider"
 msgstr "首先，您要设置交易参数。请考虑以下因素"
 
-msgid "Flexibility"
-msgstr "灵活性"
+msgid "Flexible"
+msgstr "灵活"
+
+msgid "For example, let s say the market has a low of 5,200 and a close of 6,000 over the contract duration, then a  Close-Low  lookback with a multiplier of $2 would have a payout of"
+msgstr ""
 
 msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It's the last time we win it because Shares Magazine stops awarding in this category"
 msgstr "连续第三年，BetOnMarkets.com被英国财经杂志《Shares Magazine》评为“最佳固定赔率金融交易提供商”。这是我们最后一次获奖，因为该杂志已停止颁发这一类奖项"
@@ -1408,11 +1452,14 @@ msgstr "外汇交易频率"
 msgid "Founded October 1999"
 msgstr "成立于1999年"
 
+msgid "Founded in 1999, Binary.com is one of the oldest and most respected names in online binary trading"
+msgstr "Binary.com成立于1999年，是在线二元期权交易行业中历史最悠久、声誉最好的佼佼者之一"
+
 msgid "Fractal (FRACTAL)"
 msgstr "分形(FRACTAL)"
 
 msgid "Fractals are indicators on candlestick charts that identify reversal points in the market. Traders often use fractals to get an idea about the direction in which the price will develop. A fractal will form when a particular price pattern happens on a chart"
-msgstr "分形是K 线图图表上用于识别市场价格反转点的指标。交易员一般通过使用分形来判断价格的走势方向。当图表出现某一价格形态时即会形成分形"
+msgstr "分形是K线图图表上用于识别市场价格反转点的指标。交易员一般通过使用分形来判断价格的走势方向。当图表出现某一价格形态时即会形成分形"
 
 msgid "Fran ais"
 msgstr "法文"
@@ -1438,8 +1485,14 @@ msgstr "格林威治标准时间"
 msgid "GMT stands for Greenwich Mean Time, the official time used in the UK during winter. In summer, the UK changes to British Summer Time, which is GMT + 1 hour. All times on the Binary.com site use GMT all year round"
 msgstr "格林威治标准时间是英国在冬季使用的官方时间。夏季则改为英国夏令时，即格林威治标准时间加1小时。Binary.com网站全年均使用格林威治标准时间"
 
+msgid "Get API token from trader(s) and add it in your list"
+msgstr "获取交易者的 API 令牌, 并将其添加到您的列表中"
+
 msgid "Get your price"
 msgstr "获取报价"
+
+msgid "Go to"
+msgstr "前往"
 
 msgid "Goes out"
 msgstr "范围外"
@@ -1480,17 +1533,11 @@ msgstr "帮助"
 msgid "High"
 msgstr "高"
 
-msgid "High Barrier"
-msgstr "高障碍"
-
 msgid "High barrier"
 msgstr "高障碍"
 
 msgid "High barrier offset"
 msgstr "高障碍位移"
-
-msgid "High returns"
-msgstr "高回报率"
 
 msgid "High-Wave Candle (CDLHIGHWAVE)"
 msgstr "风高浪大线 (CDLHIGHWAVE)"
@@ -1501,17 +1548,20 @@ msgstr "较高"
 msgid "Higher/Lower"
 msgstr "\"高于/低于\""
 
+msgid "Higher/Lower - Predict if the market will end higher or lower than a target price"
+msgstr "高于/低于 - 预测到期时市场价格是高于还是低于目标价格"
+
 msgid "Higher/Lower trades"
 msgstr "“高于/低于”交易"
+
+msgid "Higher/Lower   Predict that the market will end higher or lower than a price target"
+msgstr "高于/低于   预测到期时市场价格是高于还是低于目标价格"
 
 msgid "Hikkake Pattern (CDLHIKKAKE)"
 msgstr "圈套形态 (CDLHIKKAKE)"
 
 msgid "Historical Data"
 msgstr "历史数据"
-
-msgid "Home Address"
-msgstr "家庭地址"
 
 msgid "Homing Pigeon (CDLHOMINGPIGEON)"
 msgstr "信鸽 (CDLHOMINGPIGEON)"
@@ -1528,14 +1578,14 @@ msgstr "如何向账户存入资金？"
 msgid "How does Binary.com make money?"
 msgstr "Binary.com 如何盈利？"
 
-msgid "How safe is my money with Binary.com?"
-msgstr "Binary.com如何保障我的资金？"
-
 msgid "How soon can I start trading?"
 msgstr "我需要多久才能开始交易？"
 
 msgid "How to trade binaries?"
 msgstr "二元期权如何交易?"
+
+msgid "How to trade the Volatility Indices markets?"
+msgstr "如何在波动率指数市场上交易？"
 
 msgid "Hull Moving Average (HMA)"
 msgstr "赫尔移动平均线 (HMA)"
@@ -1546,6 +1596,12 @@ msgstr "我确认本人不是政治公众人士(PEP)"
 msgid "I have read and agree to Binary.com"
 msgstr "本人已经阅读并同意Binary.com的"
 
+msgid "I hereby confirm that the tax information I provided is true and complete. I will also inform Binary Investments (Europe) Ltd. about any changes to this information"
+msgstr ""
+
+msgid "I want to be treated as a professional client"
+msgstr ""
+
 msgid "I'm new to binaries, where do I start?"
 msgstr "我是新手，该如何开始呢？"
 
@@ -1555,8 +1611,11 @@ msgstr "重要免责声明"
 msgid "IMPORTANT DISCLAIMER - Binary.com is not affiliated with any of the payment agents listed above. Each payment agent operates as an independent service provider and is not endorsed, guaranteed or otherwise approved by Binary.com. CUSTOMERS DEAL WITH PAYMENT AGENTS AT THEIR SOLE RISK AND PERIL. Customers are advised to check the credentials of payment agents before sending them any money. Binary.com shall not in any circumstance be held responsible for transactions made between customers and payment agents"
 msgstr "重要免责声明 - Binary.com与上述所有支付代理不存在附属关系。各支付代理均以独立服务提供商的身份运营，未由Binary.com支持、担保或经其他方式批准。客户与支付代理的业务往来，风险自负。我们建议客户在向支付代理汇款前，应事先查询其信用状况。在任何情况下，Binary.com都不对客户与支付代理之间的交易承担责任"
 
-msgid "Ideal for both pros and novices"
-msgstr "适于专业操盘手和新手"
+msgid "IPO on the blockchain"
+msgstr "区块链上首次公开发售"
+
+msgid "Ideal for beginners and experienced traders"
+msgstr "最适于新手和经验丰富的交易者"
 
 msgid "Identical Three Crows (CDLIDENTICAL3CROWS)"
 msgstr "一模一样的三鸦 (CDLIDENTICAL3CROWS)"
@@ -1574,7 +1633,7 @@ msgid "In April"
 msgstr "今年四月"
 
 msgid "In Bullish Belt Hold After a stretch of bearish candlesticks, a bullish or white candlestick forms. The opening price, which becomes the low for the day, is significantly lower then the closing price. This results in a long white candlestick with a short upper shadow and no lower shadow. In Berish Belt Hold, a bearish or black candlestick occurs, the opening price, which becomes the high for the day, is higher than the close of the previous day, resulting in a long black candlestick with a short lower shadow and no upper shadow"
-msgstr "看涨捉腰带线中经过一段看跌K 线图后，形成看涨或白色K 线图。成为交易日最低点的开盘价明显比收盘价低。这将造成具短上端暗影，无下端暗影的长白色K 线图。看跌捉腰带线中，形成看跌或黑色K 线图，成为交易日最高点的开盘价比前一天的收盘价高，造成具短下端暗影，无上端暗影的长黑K 线图"
+msgstr "看涨捉腰带线中经过一段看跌K线图后，形成看涨或白色K线图。成为交易日最低点的开盘价明显比收盘价低。这将造成具短上端暗影，无下端暗影的长白色K线图。看跌捉腰带线中，形成看跌或黑色K线图，成为交易日最高点的开盘价比前一天的收盘价高，造成具短下端暗影，无上端暗影的长黑K线图"
 
 msgid "In Bullish Hikkake Pattern After the downward move, the bullish candle reaches above the range of the three preceding candles and most likely triggers a number of stop loss orders. This additional buying leads to a more distinct upward movement. In Bearish Hikkake Pattern After an upward move, the bearish candle reaches below the range of the three preceding , which most likely triggers a number of stop loss orders. This additional selling leads to a more distinct downward move"
 msgstr "看涨圈套形态中经过下跌移动后，看涨烛形线达到超出前三根烛形线的范围，及非常可能触发一些止损订单。此额外购入交易导致明显的上升趋势。看跌圈套形态中经过上升移动后，看跌烛形线达到低于前三根烛形线的范围，及非常可能触发一些止损订单。此额外售出交易导致明显的下降趋势"
@@ -1583,7 +1642,7 @@ msgid "In October 1999, Regent Markets receives US$ 2 million investment funding
 msgstr "1999年10月，Regent Markets获得吉姆•梅隆先生 (Jim Mellon)的200万美元投资， 这笔投资通过他在香港的基金管理公司 Regent Pacific Group 支付"
 
 msgid "In a downtrend, one small short body candlestick has a long lower shadow at least three times the real body, and little or no upper shadow. Confirmation from prices closing higher the next day"
-msgstr "下降趋势中，一根体形短小的K 线图具比真实体形长至少三倍的下端暗影，而上端暗影却很小或完全没有。这确认了第二天较高的收盘价"
+msgstr "下降趋势中，一根体形短小的K线图具比真实体形长至少三倍的下端暗影，而上端暗影却很小或完全没有。这确认了第二天较高的收盘价"
 
 msgid "In a downward price trend, a black candle appears followed by a white candle that opens below the prior body, but it may be difficult to see that from the chart. The white candle closes above the body, too. The last day of the three line candle is another white candle in this example. It shows a higher close"
 msgstr "下降趋势中，首先显示黑色烛形线，接着是一根白色烛形线在先前体形下端开盘，但图表上可能较难看出来。白色烛形线也在体形上端收盘。在此示例中，三支烛形线的最后一天是另一根白色烛形线。它显示较高的收盘价"
@@ -1603,14 +1662,26 @@ msgstr "必须完整更新页面才能正确启用主题。确定要继续？"
 msgid "In providing our services to you, we are required to obtain information from you in order to assess whether a given product or service is appropriate for you (that is, whether you possess the experience and knowledge to understand the risks involved)"
 msgstr "为了给您提供服务，我们必须向您获取信息，以便确定产品或服务是否适合您（也就是说，看您是否拥有足够经验和知识，以了解相关的风险）"
 
+msgid "In the EU, financial products are offered by Binary Investments (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta, licensed and regulated as a Category 3 Investment Services provider by the Malta Financial Services Authority (license no. IS/70156). In the Isle of Man and the UK, Volatility Indices are offered by Binary (IOM) Ltd., First Floor, Millennium House, Victoria Road, Douglas, IM2 4RW, Isle of Man, British Isles; licensed and regulated respectively by (1) the Gambling Supervision Commission in the Isle of Man (current licence issued on 31 August 2017) and by (2) the Gambling Commission in the UK"
+msgstr ""
+
 msgid "In the UK and Isle of Man, our clients trade through Binary (IOM) Ltd. In Japan, they trade through Binary KK. In the European Union (except UK), they trade through Binary (Europe) Ltd and Binary Investments (Europe) Ltd. In the rest of the world, they trade through Binary (C.R.) S.A"
 msgstr "在英国和马恩岛，我们的客户通过 Binary (IOM) Ltd. 进行交易。在日本通过 Binary KK 进行交易。在欧盟（除了英国），则通过 Binary (Europe) Ltd 和 Binary Investments (Europe) Ltd. 进行交易。在全世界其他地区，客户通过 Binary (C.R.) S.A.进行交易"
+
+msgid "In the rest of the EU, Volatility Indices are offered by Binary (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta; licensed and regulated by (1) the Malta Gaming Authority in Malta (licence no. MGA/CL2/118/2000 issued on 26 May 2015), for UK clients by (2) the UK Gambling Commission"
+msgstr ""
 
 msgid "In-Neck Pattern (CDLINNECK)"
 msgstr "颈内形态 (CDLINNECK)"
 
 msgid "In/Out"
 msgstr "“范围之内/之外”"
+
+msgid "In/Out (ends between/outside and stays between/goes outside)"
+msgstr "“范围之内/之外”期权(收盘位于范围之内/之外且保持在范围之内/超出范围之外)"
+
+msgid "In/Out - Predict if the market will stay between or outside two target prices"
+msgstr "范围之内/之外 - 预测市场价格是否会保持在两个目标价格之内/之外"
 
 msgid "In/Out trades"
 msgstr "“范围之内 / 之外”交易"
@@ -1627,6 +1698,9 @@ msgstr "指标"
 msgid "Indices"
 msgstr "指数"
 
+msgid "Indices - All major worldwide stock indices sourced from the over-the-counter market"
+msgstr "指数 - 全球所有主要的股票指数源自场外交易市场"
+
 msgid "Indices trading experience"
 msgstr "指数交易经验"
 
@@ -1642,11 +1716,11 @@ msgstr "印度尼西亚"
 msgid "Industry of Employment"
 msgstr "职业领域"
 
+msgid "Initial Coin Offering (ICO)"
+msgstr "首次代币发售 (ICO)"
+
 msgid "Instant access"
 msgstr "即时访问"
-
-msgid "Instant funding"
-msgstr "即时存款"
 
 msgid "Instruments"
 msgstr "工具"
@@ -1670,7 +1744,7 @@ msgid "Is it possible to deposit the same funds through different payment method
 msgstr "可否通过不同的付款方式存入同一类资金？"
 
 msgid "It has a long white candle, followed by another that opens above the first (gaps up), followed by a downward black candlestick that opens below the close of the second day (gaps down) and has a low below the close of the first day. The upward trend is expected to continue"
-msgstr "它有一根长白色烛形线，接着是另一根在首根线上端开盘（高开缺口）的烛形线，接下来是一根在第二天收盘价下端开盘（低开缺口）并低于第一天的收盘价下端的下降黑色K 线图。预期上涨趋势将继续"
+msgstr "它有一根长白色烛形线，接着是另一根在首根线上端开盘（高开缺口）的烛形线，接下来是一根在第二天收盘价下端开盘（低开缺口）并低于第一天的收盘价下端的下降黑色K线图。预期上涨趋势将继续"
 
 msgid "It is sometimes possible to sell an option before the expiry of a trade, but only if a fair price can be determined. If this option is available, you will see a blue 'Sell' button next to your trade in the portfolio"
 msgstr "有时候您能在交易到期前卖出合约，但仅在可确定公平价格时能够实现。如果此选项可用，您会在投资组合中您的交易旁边看到蓝色的“卖出”按钮"
@@ -1679,7 +1753,7 @@ msgid "It's time to expand. We set up a programming center in Cyberjaya - the Si
 msgstr "扩大规模的时机到了。我们在有“吉隆坡硅谷”美誉的 Cyberjaya 成立了一个编程中心，旨在维持和提高BetOnMarkets.com的效率"
 
 msgid "Italiano"
-msgstr "意大利文"
+msgstr "意大利语"
 
 msgid "Jan"
 msgstr "一月"
@@ -1700,7 +1774,7 @@ msgid "June"
 msgstr "六月"
 
 msgid "Just click  Grant  button on the page you will now be taken to"
-msgstr "仅须在您即将看到的页面上点击 授予 按钮"
+msgstr "仅须在您即将看到的页面上点击‘’授予”按钮"
 
 msgid "Kaufman's Adaptive Moving Average (KAMA)"
 msgstr "考夫曼自适应移动平均线 (KAMA)"
@@ -1715,19 +1789,19 @@ msgid "Kicking - bull/bear determined by the longer marubozu (CDLKICKINGBYLENGTH
 msgstr "反扑 - 由长身实体线判断看涨/看跌趋势 (CDLKICKINGBYLENGTH)"
 
 msgid "Kicking patterns on a candlestick chart are formed when there are two long marubozu - one white and one black - with a gap between them. Bullish kicking patterns would present as a black or filled candlestick without any wicks (shadows) followed by a gap higher with a white or hollow candlestick that is also without wicks"
-msgstr "当K 线图图表出现两根长身实体线（一白一黑）及中间有缺口时，即形成反扑形态。看涨反扑形态将显示无暗影的黑色或实体K 线图，其后有高开缺口及也是无暗影的白色或中空K 线图"
+msgstr "当K线图图表出现两根长身实体线（一白一黑）及中间有缺口时，即形成反扑形态。看涨反扑形态将显示无暗影的黑色或实体K线图，其后有高开缺口及也是无暗影的白色或中空K线图"
 
 msgid "Kicking patterns on a candlestick chart are formed when there are two marubozu - one white and one black - with a gap between them. Bullish kicking patterns would present as a black or filled candlestick without any wicks (shadows) followed by a gap higher with a white or hollow candlestick that is also without wicks"
-msgstr "当K 线图图表出现两根实体线（一白一黑）及中间有缺口时，即形成反扑形态。看涨反扑形态将显示无暗影的黑色或实体K 线图，其后有高开缺口及也是无暗影的白色或中空K 线图"
-
-msgid "Known risks"
-msgstr "已知风险"
+msgstr "当K线图图表出现两根实体线（一白一黑）及中间有缺口时，即形成反扑形态。看涨反扑形态将显示无暗影的黑色或实体K线图，其后有高开缺口及也是无暗影的白色或中空K线图"
 
 msgid "Kuala Lumpur Office"
 msgstr "吉隆坡办公室"
 
 msgid "Ladder Bottom (CDLLADDERBOTTOM)"
 msgstr "梯底 (CDLLADDERBOTTOM)"
+
+msgid "Last 12 mnts Profitable Trades"
+msgstr "最后12个月盈利交易"
 
 msgid "Last used"
 msgstr "上一次使用"
@@ -1774,17 +1848,17 @@ msgstr "加载图表模板"
 msgid "Load trade template"
 msgstr "加载交易模板"
 
-msgid "Loading"
-msgstr "加载"
-
 msgid "Loading Asset Index"
 msgstr "加载资产指数"
 
-msgid "Loading Configurations"
-msgstr "加载配置"
+msgid "Loading Copy Trade"
+msgstr "正在加载复制交易"
 
 msgid "Loading Download/View Data"
 msgstr "加载下载/查看数据"
+
+msgid "Loading MAM"
+msgstr "加载MAM"
 
 msgid "Loading Password dialog"
 msgstr "加载密码对话"
@@ -1843,9 +1917,6 @@ msgstr "长烛线 (CDLLONGLINE)"
 msgid "Long-legged doji have long upper and lower shadows that are almost equal in length. These doji reflect a great amount of indecision in the market. Long-legged doji indicate that prices traded well above and below the session's opening level, but closed virtually even with the open. After a whole lot of yelling and screaming, the end result showed little change from the initial open"
 msgstr "长脚十字线有近乎相同长度的长形上下暗影。这些十字线反映市场拥有大量犹疑不决的投资交易。长脚十字线显示交易成交价格大幅高于或低于时段内的开盘价，但收盘价与开盘价近乎相同。经过大量激烈的叫价后，最终结果与起初开盘价没多大变化"
 
-msgid "Long-term action"
-msgstr "长期操作"
-
 msgid "Look for a black candle in a downward price trend followed by a white candle that opens below the prior low but closes near but below the midpoint of the black candle's body"
 msgstr "寻求下跌价格走势中的黑色烛形线及紧随的、以低于前最低价开盘并以接近但低于黑色烛形线主体中间价位收盘的白色烛形线"
 
@@ -1855,11 +1926,14 @@ msgstr "寻求在下跌价格走势中出现、拥有长形低位暗影的高身
 msgid "Look for a tall white candle in an upward price trend. Following that, a black candle has a body that gaps above the prior candle's body. The last day is another black candle, but this one engulfs the previous bearish candle but closes above first bar's open"
 msgstr "寻求上涨价格走势中的高身白色烛形线。紧随的是在前一支烛形线体上有缺口的黑色烛形线。 最后一天也是黑色烛形线，但这一支完全包围住前一支看跌烛形线， 且收盘价高于第一支烛形线的开盘价"
 
+msgid "Lookbacks"
+msgstr ""
+
+msgid "Lookbacks are currently only available for Volatility Indices"
+msgstr ""
+
 msgid "Low"
 msgstr "低"
-
-msgid "Low Barrier"
-msgstr "低障碍"
 
 msgid "Low barrier"
 msgstr "低障碍"
@@ -1912,8 +1986,14 @@ msgstr "执垫 (CDLMATHOLD)"
 msgid "Matches"
 msgstr "相符"
 
+msgid "Matches/Differs - Predict that the last digit will match or not match"
+msgstr "符合/相差 - 预测最后数字是否符合"
+
 msgid "Matching Low (CDLMATCHINGLOW)"
 msgstr "相同低价 (CDLMATCHINGLOW)"
+
+msgid "Max. Trade Stake"
+msgstr "最大交易投注额"
 
 msgid "Maximum (MAX)"
 msgstr "最高价 (MAX)"
@@ -1954,14 +2034,14 @@ msgstr "难忘的城镇/城市"
 msgid "Mesa Adaptive Moving Average (MAMA)"
 msgstr "Mesa自适应移动平均线 (MAMA)"
 
+msgid "Min. Trade Stake"
+msgstr "最小交易投注额"
+
 msgid "Min: 10 Max: 2000"
 msgstr "最小: 10 最大: 2000"
 
 msgid "Minimum (MIN)"
 msgstr "最低价 (MIN)"
-
-msgid "Minimum 6 characters and must contain at least 1 digit"
-msgstr "需至少6个字符与1个数字"
 
 msgid "Minimum of 2 characters required"
 msgstr "需要至少2个字符"
@@ -1971,6 +2051,9 @@ msgstr "需要至少4个字符"
 
 msgid "Minimum of 6 characters required"
 msgstr "需要至少6个字符"
+
+msgid "Minimum of six lower and uppercase letters with numbers"
+msgstr ""
 
 msgid "Minimum price over selected period"
 msgstr "选定期内最低价"
@@ -1996,6 +2079,9 @@ msgstr "周一"
 msgid "Monday"
 msgstr "周一"
 
+msgid "Monthly Profitable Trades"
+msgstr "每月盈利交易"
+
 msgid "Morning Doji Star (CDLMORNINGDOJISTAR)"
 msgstr "晨星十字线 (CDLMORNINGDOJISTAR)"
 
@@ -2016,6 +2102,9 @@ msgstr "夫人"
 
 msgid "Ms"
 msgstr "女士"
+
+msgid "Multiplier"
+msgstr ""
 
 msgid "Name"
 msgstr "名字"
@@ -2059,12 +2148,6 @@ msgstr "否"
 msgid "No Touch trades"
 msgstr "“未触及”交易"
 
-msgid "No matter the market - rising or falling, quiet or volatile - you'll find a trade to suit your outlook"
-msgstr "不论是上涨或下跌市场，还是清淡或波动市场，您将可找到合意的交易"
-
-msgid "No surprises"
-msgstr "没有出乎意料的交易"
-
 msgid "No touch"
 msgstr "未触及"
 
@@ -2075,7 +2158,7 @@ msgid "Normalized Average True Range (NATR) attempts to normalize the average tr
 msgstr "标准化真实波动幅度均值 (NATR) 尝试使用以下公式将各工具之间的真实波动幅度均值标准化"
 
 msgid "Note: You can only have one fiat currency account and one of each cryptocurrency account"
-msgstr "注： 您只能拥有一个法定货币账户以及每种加密货币一个账户"
+msgstr "注： 您只能拥有一个法定货币账户以及任一种加密货币账户"
 
 msgid "Note: withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 msgstr "注意：您必须完全通过付款代理存款才可使用付款代理提款"
@@ -2089,17 +2172,14 @@ msgstr "十一月"
 msgid "Now"
 msgstr "现在"
 
-msgid "OAuth App ID (Optional)"
-msgstr "OAuth 应用 ID (可选)"
-
-msgid "OAuth Server"
-msgstr "OAuth 服务器"
-
 msgid "OHLC"
 msgstr "OHLC条形图"
 
 msgid "OK"
 msgstr "确定"
+
+msgid "OTC stocks - Blue-chip stock contracts sourced from the over-the-counter market"
+msgstr "场外交易股票 - 源自场外交易市场的蓝筹股票合约"
 
 msgid "Occupation"
 msgstr "职业"
@@ -2130,6 +2210,9 @@ msgstr "达到此限额后，您不能再存款"
 
 msgid "One last step left"
 msgstr "剩下最后一步"
+
+msgid "Online trading can become addictive. Fill in the form below to limit your participation on the website or send a signed letter or fax to our customer support team. Once set, you can only tighten your limits. Limits will only be removed or loosened after 7 days with the exception of the self- exclusion date, which cannot be removed or altered once you have confirmed it. To remove or increase your limits, please contact"
+msgstr "在线交易可能使人上瘾。请填写下表以限制您对本网站的参与。您也可发送签名信或传真到我们的客服团队。一旦设定好，您只能收紧您的限制。限制只能在 7 天后取消或放宽，自我禁止期在确认后不能取消或更改。若要解除或增加您的限制，请联系"
 
 msgid "Only five years after inception, we pick up this major award for our online trading services. The award recognises BetOnMarkets.com's reliable, fast and secure online trading for novice and expert traders. At this time, our website has received over 15 million trades"
 msgstr "成立后仅五年，我们的在线交易服务即斩获这一重要奖项。该奖项旨在表彰 BetOnMarkets.com 向交易新手和资深交易者提供可靠、快速和安全的网上交易。此时，我们网站的交易数量已超过1500万笔"
@@ -2197,23 +2280,29 @@ msgstr "毋庸置疑，我们深受客户喜爱。2014 年中期，Binary.com的
 msgid "Our fast organic growth is supplemented by the acquisition of the client base of BetsForTraders, one of our main competitors"
 msgstr "我们获取了主要竞争对手之一BetsForTraders 的客户群，为公司快速的内生性增长提供支持"
 
+msgid "Our prices are benchmarked against the interbank options market. You ll receive fair and transparent pricing, whatever your position"
+msgstr "我们的报价基于银行间期权市场基准价格，让您不论身处何地都可获得最公平、透明的报价"
+
 msgid "Over"
 msgstr "超过"
 
 msgid "Over 1 million registered accounts worldwide"
 msgstr "在全球拥有超过一百万个注册账户"
 
+msgid "Over 130 staff and contractors worldwide"
+msgstr "世界各地拥有超过130名职员和合同工"
+
 msgid "Over 3 years"
 msgstr "3年以上"
 
-msgid "Over 90 staff and contractors worldwide"
-msgstr "世界各地拥有超过90名职员和合同工"
+msgid "Over/Under - Predict that the last digit is higher or lower"
+msgstr "大于/小于 - 预测最后数字是大于或小于"
 
 msgid "Overlap Studies"
 msgstr "重叠研究"
 
 msgid "PEP Declaration"
-msgstr "PEP 声明"
+msgstr "PEP声明"
 
 msgid "Parabolic SAR (SAR)"
 msgstr "抛物线转向指标 (SAR)"
@@ -2233,9 +2322,6 @@ msgstr "支付代理"
 msgid "Payment agents"
 msgstr "支付代理"
 
-msgid "Payment options"
-msgstr "付款选项"
-
 msgid "Payments"
 msgstr "支付"
 
@@ -2248,11 +2334,17 @@ msgstr "养老金"
 msgid "Percentage Price Oscillator (PPO)"
 msgstr "百分比价格震荡指标 (PPO)"
 
+msgid "Performance Probability"
+msgstr "性能概率"
+
 msgid "Permissions"
 msgstr "权限"
 
 msgid "Personal Details"
 msgstr "个人资料"
+
+msgid "Personal Wealth Awards 2017"
+msgstr "2017个人财富奖"
 
 msgid "Phone"
 msgstr "电话"
@@ -2305,6 +2397,9 @@ msgstr "请输入正确的令牌"
 msgid "Please install the latest version of one of these browsers"
 msgstr "以下浏览器请选择一个并安装最新版本"
 
+msgid "Please note that due to their over-the-counter nature, the prices of the OTC Indices and stocks will differ from the prices of the corresponding indices and stocks on centralised exchanges"
+msgstr "请注意，由于其场外交易性质，OTC 指数和股票的价格与中央交易所的相应指数和股票价格有所不同"
+
 msgid "Please provide your tax information"
 msgstr "请提供税务信息"
 
@@ -2330,13 +2425,13 @@ msgid "Points"
 msgstr "点"
 
 msgid "Polski"
-msgstr "波兰文"
+msgstr "波兰语"
 
 msgid "Portfolio"
 msgstr "投资组合"
 
 msgid "Portugu s"
-msgstr "葡萄牙文"
+msgstr "葡萄牙语"
 
 msgid "Postal code/ZIP"
 msgstr "邮编"
@@ -2365,17 +2460,17 @@ msgstr "价格转换"
 msgid "Price forms three black candles, each with lower closes, in a downward price trend. A tall white candle engulfs the price action of the prior three days. The candle acts as a bullish reversal when price breaks out upward, and closes above the top of the candle pattern"
 msgstr "三支以低价收盘的黑色烛形线价格呈下跌趋势。一支高身白色烛形线将前三天价位操作包围着。当价格向上突破时，此烛形线扮演看涨反转角色，并在烛形线形态顶部上端收盘"
 
-msgid "Price the trade"
-msgstr "交易报价"
-
 msgid "Price trends downward into the start of the pattern, a tall black candle. Following that, a white candle appears that fits inside the body of the prior candle. This completes the bullish harami candlestick. The final day of the pattern is the confirming candle, a white one that closes above the prior close, which it does. The combination suggests price has reversed trend"
-msgstr "价格趋势在形态开始时下降，出现高身黑色烛形线。接下来，一支恰好可容纳在前支烛形线体内的白色烛形线出现， 从而完成了看涨母子K 线图。形态的最后一天是于前收盘价上方收盘的确认烛形线，它确实能够做到。此组合显示价格具反转趋势"
+msgstr "价格趋势在形态开始时下降，出现高身黑色烛形线。接下来，一支恰好可容纳在前支烛形线体内的白色烛形线出现， 从而完成了看涨母子K线图。形态的最后一天是于前收盘价上方收盘的确认烛形线，它确实能够做到。此组合显示价格具反转趋势"
 
 msgid "Primary"
 msgstr "主要"
 
 msgid "Print chart"
 msgstr "打印图表"
+
+msgid "Professional Client"
+msgstr ""
 
 msgid "Profit"
 msgstr "利润"
@@ -2389,6 +2484,9 @@ msgstr "利润/亏损"
 msgid "Profit/Loss (points)"
 msgstr "利润/亏损（点）"
 
+msgid "Protect your profits"
+msgstr "保护利润"
+
 msgid "Published in English, Indonesian, Japanese, Chinese, Polish, German, French, Spanish, Portuguese, Italian, Russian, and Thai"
 msgstr "以英语、印尼文、日文、中文、波兰文、德文、法文、西班牙文、葡萄牙文、意大利文、俄文和泰文发布"
 
@@ -2400,9 +2498,6 @@ msgstr "买入日期"
 
 msgid "Purchase Price"
 msgstr "买入价格"
-
-msgid "Quiet markets"
-msgstr "交易清淡市场"
 
 msgid "Rate Of Change (ROC)"
 msgstr "变动率 (ROC)"
@@ -2418,9 +2513,6 @@ msgstr "阅读"
 
 msgid "Read about"
 msgstr "阅读关于"
-
-msgid "Reap the rewards of trading binaries, knowing your funds are always safe"
-msgstr "了解到您的资金始终是安全的，请放心收取二元期权交易的盈利"
 
 msgid "Ref"
 msgstr "参考"
@@ -2467,6 +2559,9 @@ msgstr "Regent Pacific 交易"
 msgid "Register free account"
 msgstr "注册免费账户"
 
+msgid "Regulatory Information"
+msgstr ""
+
 msgid "Relative Strength Index (RSI)"
 msgstr "相对强弱指标 (RSI)"
 
@@ -2512,11 +2607,14 @@ msgstr "上涨"
 msgid "Rise/Fall"
 msgstr "上涨/下跌"
 
+msgid "Rise/Fall - Predict if the market will rise or fall from its current level"
+msgstr "上涨/下跌 - 预测市场价格会从当前水平上涨或下跌"
+
 msgid "Rise/Fall trades"
 msgstr "上涨/下跌交易"
 
-msgid "Rising markets"
-msgstr "上涨市场"
+msgid "Rise/Fall   Predict that the market will rise or fall from its current level"
+msgstr "上涨/下跌   预测市场价格会从当前水平上涨或下跌"
 
 msgid "Rising/Falling Three Methods (CDLRISEFALL3METHODS)"
 msgstr "上涨/下跌三法 (CDLRISEFALL3METHODS)"
@@ -2557,8 +2655,8 @@ msgstr "保存更改"
 msgid "Saved"
 msgstr "已保存"
 
-msgid "Scalable trading"
-msgstr "灵活交易"
+msgid "Scalable"
+msgstr "可缩放"
 
 msgid "Second line of home address"
 msgstr "家庭地址第二行"
@@ -2568,6 +2666,9 @@ msgstr "次要"
 
 msgid "Security"
 msgstr "安全"
+
+msgid "Security and privacy"
+msgstr "安全隐私"
 
 msgid "Security question"
 msgstr "安全提示问题"
@@ -2602,8 +2703,11 @@ msgstr "会话"
 msgid "Session duration limit, in minutes"
 msgstr "交易期持续时间限制，以分钟为单位"
 
-msgid "Set your probability of winning"
-msgstr "设置赢钱概率"
+msgid "Set barrier(s) to define your position and trigger the payout you will receive"
+msgstr "您可设置障碍水平用于确认头寸参数以及触发赔付"
+
+msgid "Set the length of your trade, from 10 seconds to 365 days"
+msgstr "设定交易期限，从10 秒至 365 天"
 
 msgid "Settles"
 msgstr "结算"
@@ -2614,23 +2718,29 @@ msgstr "分享"
 msgid "Share chart"
 msgstr "分享图表"
 
+msgid "Sharp, benchmarked prices"
+msgstr "精确基准报价"
+
 msgid "Shooting Star (CDLSHOOTINGSTAR)"
 msgstr "射击之星 (CDLSHOOTINGSTAR)"
 
-msgid "Short to long-term"
-msgstr "各种交易期限"
-
-msgid "Short-term action"
-msgstr "短期交易操作"
+msgid "Short to long-term durations"
+msgstr "短期限到长期限"
 
 msgid "Side by side white lines candlestick pattern is a triple pattern. Bullish pattern: In an upward trend, the first candlestick is followed by another upward that opens above the close of the first (gap up), that is followed by a third upward candlestick that opens below the close of the second (gap down). Bearish pattern: During a downtrend, the first candlestick is downward, followed by an upward candlestick that opens below the close of the first one (gap down), followed by an upward candlestick that opens below the close of the second one. This pattern indicates the continuation of a downtrend"
-msgstr "并排的白色K 线图形态是三重形态。看涨形态：上升走势中，首支K 线图后面的是另一支以高于首支收盘价开盘的上升K 线图（高开缺口），再后面的是第三支以低于第二支收盘价开盘的上升K 线图（低开缺口）。看跌形态：下降走势中，首支K 线图下跌，后面的是一支以低于首支收盘价开盘的上升K 线图（低开缺口），再后面的是以低于第二支收盘价开盘的上升K 线图。此形态显示持续下跌走势"
+msgstr "并排的白色K线图形态是三重形态。看涨形态：上升走势中，首支K线图后面的是另一支以高于首支收盘价开盘的上升K线图（高开缺口），再后面的是第三支以低于第二支收盘价开盘的上升K 线图（低开缺口）。看跌形态：下降走势中，首支K线图下跌，后面的是一支以低于首支收盘价开盘的上升K线图（低开缺口），再后面的是以低于第二支收盘价开盘的上升K线图。此形态显示持续下跌走势"
 
 msgid "Simple Moving Average (SMA)"
 msgstr "简单移动平均线 (SMA)"
 
-msgid "Simplicity"
-msgstr "简易"
+msgid "Simple and intuitive"
+msgstr "简单和直观化"
+
+msgid "Smart FX"
+msgstr "智能外汇"
+
+msgid "Smart Indices"
+msgstr "智能指数"
 
 msgid "Smoothed Moving Average (SMMA)"
 msgstr "平滑移动平均线 (SMMA)"
@@ -2638,8 +2748,14 @@ msgstr "平滑移动平均线 (SMMA)"
 msgid "Sold"
 msgstr "已卖出"
 
+msgid "Some products are not available in all countries. This website's services are not made available in certain countries such as the USA, Costa Rica, Hong Kong, or to persons under age 18"
+msgstr ""
+
 msgid "Source of wealth"
 msgstr "财富来源"
+
+msgid "Specify your payout, which is your potential return if your prediction is correct. Our system will proceed to calculate your stake, which is the total cost of purchasing the contract. Binary.com offers payouts from $1 to $50,000"
+msgstr "确定赔付额，如果您的预测正确的话，这就是您的潜在回报率。我们的系统将进一步计算您的投注额，即购入合约的总成本。Binary.com提供从1美元到5万美元的赔付额"
 
 msgid "Spinning Top (CDLSPINNINGTOP)"
 msgstr "陀螺线 (CDLSPINNINGTOP)"
@@ -2698,11 +2814,14 @@ msgstr "统计函数"
 msgid "Status"
 msgstr "统计"
 
+msgid "Stays Between/Goes Outside"
+msgstr "“保持在范围之内/超出范围之外”"
+
 msgid "Stays Between/Goes Outside trades"
 msgstr "“保持在范围内/超出范围”的交易"
 
-msgid "Stays In/Goes Out"
-msgstr "“保持在范围之内/超出范围之外”"
+msgid "Stays Between/Goes Outside   Predict that the market stays inside or goes outside two price targets any time during the contract period"
+msgstr "保持在某个范围之内/之外  预测市价在合约期限内的任何时间都保持在两个目标价位范围之内或超出范围之外"
 
 msgid "Stays in"
 msgstr "范围内"
@@ -2710,7 +2829,7 @@ msgstr "范围内"
 msgid "Step 1: Define your position"
 msgstr "步骤 1：设置您的头寸参数"
 
-msgid "Step 2: Get your trade price"
+msgid "Step 2: Get your contract price"
 msgstr "步骤 2：获取合约报价"
 
 msgid "Step 3: Make your trade"
@@ -2730,12 +2849,6 @@ msgstr "随机相对强弱指数 (STOCHRSI)"
 
 msgid "Stochastic Slow (STOCHS)"
 msgstr "慢步随机指数 (STOCHS)"
-
-msgid "Stock Indices"
-msgstr "股票指数"
-
-msgid "Stock indices"
-msgstr "股票指数"
 
 msgid "Stock market indices measure the value of a selection of companies in the stock market"
 msgstr "股票市场指数测量选定公司在股票市场的价值"
@@ -2785,9 +2898,6 @@ msgstr "周日"
 msgid "Table"
 msgstr "表"
 
-msgid "Take early profits"
-msgstr "获取早期利润"
-
 msgid "Takuri (Dragonfly Doji with very long lower shadow) (CDLTAKURI)"
 msgstr "探水竿 (特长下影蜻蜓十字线) (CDLTAKURI)"
 
@@ -2802,9 +2912,6 @@ msgstr "税务信息"
 
 msgid "Tax residence"
 msgstr "税务居住地"
-
-msgid "Tax-free"
-msgstr "免税"
 
 msgid "Tel"
 msgstr "电话"
@@ -2826,6 +2933,9 @@ msgstr "三级"
 
 msgid "The"
 msgstr "关于"
+
+msgid "The AUD Index is a weighted Index, measuring the Australian Dollar's value against a basket of 5 global currencies (USD, EUR, GBP, JPY, CAD), each weighted by 20%"
+msgstr "澳元指数是一个加权指数，衡量澳元相对5种全球货币（美元、欧元、英镑、日元、加元）的价值，每种货币的权重均为20%"
 
 msgid "The Absolute Price Oscillator (APO) is based on the absolute differences between two moving averages of different lengths, a  Fast  and a  Slow  moving average"
 msgstr "绝对价格震荡指标 (APO) 是根据两个不同长度如快与慢速移动平均线的绝对相差数值"
@@ -2872,11 +2982,17 @@ msgstr "Patrick Mulloy发明的双指数移动平均线 (DEMA)尝试在近期数
 msgid "The Dragonfly Doji is created when the open, high, and close are the same or about the same price (Where the open, high, and close are exactly the same price is quite rare).The most important part of the Dragonfly Doji is the long lower shadow"
 msgstr "蜻蜓十字线指标在开盘价、收盘价与最高价位相同或大约相同（当开盘价、收盘价与最高价位很少完全相同时）时出现。蜻蜓十字线最重要的部分是长长的下影线"
 
+msgid "The EUR Index is a weighted Index, measuring the Euro's value against a basket of 5 global currencies (USD, AUD, GBP, JPY, CAD), each weighted by 20%"
+msgstr "欧元指数是加权指数，衡量欧元相对5种全球货币（美元、澳元、英镑、日元、加元）的价值，每种货币的权重均为 20%"
+
 msgid "The Exponential Moving Average (EMA) represents an average of prices, but places more weight on recent prices. The weighting applied to the most recent price depends on the selected period of the moving average. The shorter the period for the EMA, the more weight that will be applied to the most recent price"
 msgstr "指数移动平均线 (EMA)代表平均价格，但对近期价格加权。加权方式以最近价格根据移动平均的选定周期增加。EMA周期越短，对最近价格加权越多"
 
 msgid "The Fast Stochastic Oscillator is based on George Lane's original formulas for %K and %D. %K in the fast version that appears rather choppy. %D is the 3-day SMA of %K"
 msgstr "快速随机摆动指标是根据乔治·蓝恩对%K和%D的原公式计算的。快速版%K线波动较大。%D相等于%K的3天期慢速移动平均数"
+
+msgid "The GBP Index is a weighted Index, measuring the British Pound's value against a basket of 5 global currencies (USD, EUR, AUD, JPY, CAD), each weighted by 20%"
+msgstr "英镑指数是加权指数，衡量英镑相对5种全球货币（美元、欧元、澳元、日元、加元）的价值，每种货币的权重均为20%"
 
 msgid "The Gravestone Doji is created when the open, low, and close are the same or about the same price (Where the open, low, and close are exactly the same price is quite rare). The most important part of the Graveston Doji is the long upper shadow"
 msgstr "墓碑十字线指标在开盘价、收盘价与最低价位相同或大约相同（当开盘价、收盘价与最低价位很少完全相同时）时出现。墓碑十字线最重要的部分是长长的上影线"
@@ -2933,10 +3049,10 @@ msgid "The Stochastic Relative Strength Index (STOCHRSI) was developed by Tushar
 msgstr "随机相对强弱指数 (STOCHRSI) 由Tushar Chande 和 Stanley Kroll 提出。StochRSI 是个震荡指标，测量特定周期内相对于高低范围的相对强弱指数(RSI)值。StochRSI 对RSI值而不是价格应用随机公式。因此导致它成为指标中的指标。结果是个在0和1之间波动的指标"
 
 msgid "The Tasuki Gap pattern is made up of three candlesticks, the first bar is a red candlestick within a defined downtrend, the second bar is another red candlestick that has gapped below the close of the previous bar and the last bar is a white candlestick that closes within the gap of the first two bars"
-msgstr "探水竿缺口形态由三支K 线图组成。第一支是位于指定下跌趋势内的红色K 线图。第二支也是红色K 线图，在前支线收盘价下有缺口。最后是一支白色K 线图，在首两支线缺口间收盘"
+msgstr "探水竿缺口形态由三支K线图组成。第一支是位于指定下跌趋势内的红色K线图。第二支也是红色K线图，在前支线收盘价下有缺口。最后是一支白色K线图，在首两支线缺口间收盘"
 
 msgid "The Three Methods pattern is a trend continuation pattern that can appear in an uptrend or a down trend. In an uptrend it is called the rising three methods pattern and in a downtrend it is called the falling three methods pattern. The three methods pattern consists of at least five candlesticks"
-msgstr "三法形态是持续趋势形态，可在上升或下降趋势中出现。在上升趋势中，它被称为上涨三法形态。在下降趋势中，它被称为下跌三法形态。三法形态由至少五支K 线图组成"
+msgstr "三法形态是持续趋势形态，可在上升或下降趋势中出现。在上升趋势中，它被称为上涨三法形态。在下降趋势中，它被称为下跌三法形态。三法形态由至少五支K线图组成"
 
 msgid "The Triangular Moving Average (TRIMA) represents an average of prices, but places weight on the middle prices of the time period. The calculations double-smooth the data using a window width that is one-half the length of the series"
 msgstr "三角移动平均线(TRIMA)表示平均价格，但给予交易周期的中间部分更多的权重。计算时使用的窗口宽度是价格系列长度的一半，使数据加倍平滑"
@@ -2950,6 +3066,12 @@ msgstr "三重指数移动平均指标 (TEMA)由Patrick Mulloy提出，提供比
 msgid "The Typical Price function measures the average of the high, low, and closing prices for the day using a simple, single-line plot. The ordinary price gives a simplified view of the day trading prices for as well as it happens with other price-adjustment functions. You can use it for smoothing out some of the inconstancy of the closing price because it comprises information for the whole trading day and not only the result of the day's end. The Typical Price indicator is measured by adding the high, low, and closing prices together, and then dividing by three"
 msgstr "典型价格功能使用简单的单线图测量当天交易的最高价、最低价和收盘价的平均值。普通价格提供当天交易价格的简视图以及当进行其他价格调整功能后所发生的结果。您可利用它来使收盘价的一些波动变得平滑，因为它包含当天交易的所有信息，不只是闭市结果。典型价格指标计算法是把最高价、最低价和收盘价相加，然后除以三"
 
+msgid "The USD Index is a weighted Index, measuring the US Dollar's value against a basket of 5 global currencies (EUR, GBP, JPY, CAD, AUD), each weighted by 20%"
+msgstr "美元指数是加权指数，衡量美元相对于5种全球货币（欧元、英镑、日元、加元、澳元）的价值，每种货币的权重均为20%"
+
+msgid "The Volatility 100 Index is twice as volatile as the Volatility 50 Index, and four times as volatile as the Volatility 25 Index"
+msgstr "波动率100指数的波幅是波动率50指数的两倍，是波动率25指数的四倍"
+
 msgid "The Weighted Close indicator is simply an average of each day's price. It can be used to smooth out some of the inconstancy of a chart of closing prices, as it comprises information for the whole trading day"
 msgstr "加权收盘价指标显示每日平均价。它可使收盘价图表的一些波动变得平滑，因为它包含整天交易的信息"
 
@@ -2959,14 +3081,11 @@ msgstr "力量平衡指标(BOP)通过评估对看涨和看跌市场力量进行�
 msgid "The barrier of a binary option trade is the price target you set for the underlying. You can choose trades that stay below or go above a price target, or stay between two targets"
 msgstr "二元期权交易的障碍即您为标的资产设定的目标价。您可选择交易“低于或高于目标价”合约或“保持在两个目标价区间内”合约"
 
-msgid "The barrier(s) you choose defines your position and triggers your payout"
-msgstr "您选择的障碍将确定您的头寸，并触发您的赔付额"
-
 msgid "The breakaway pattern begins with a long candle representing the current trend. The following candle is the same color and it gaps away from that first long candle. While the third day s candle can be either color, it will not show a change in the current trend. The fourth day continues the trend and therefore continues to produce the same color candles. The fifth day however, reverses the trend. Please note that it only opens slightly the opposite of the current trend and it continues in the same direction to where it then closes in the gap area"
 msgstr "突破形态以长烛形线开始，代表当前趋势。下一支烛形线颜色相同，从首支烛形线开缺口脱离。第三支烛形线可能是两种色的其中一种，不会显示当前趋势有何变化。第四天趋势持续不变，因此继续产生同样颜色的烛形线。但第五天的趋势逆转。请留意，它仅以当前趋势稍微相反的价格开盘，并以相同方向继续，最后在缺口区内收盘"
 
 msgid "The closing black marubozu candlestick is a tall black candle with an upper shadow but no lower one. The closing white marubozu candlestick is a tall white candle with an lower shadow but no upper shadow"
-msgstr "收盘黑色实体K 线图是高黑烛形线，有上影，但无下影。收盘白色实体K 线图是高白烛形线，有下影，但无上影"
+msgstr "收盘黑色实体K线图是高黑烛形线，有上影，但无下影。收盘白色实体K线图是高白烛形线，有下影，但无上影"
 
 msgid "The company holds customer funds in separate bank accounts to the operational accounts which would not, in the event of insolvency, form part of the Company's assets. This meets the Gambling Commission's requirements for the segregation of customer funds at the level"
 msgstr "公司把客户资金存在独立的银行账户，与运营账户分开，因此如果公司破产，客户资金不会成为公司资产的一部分。这符合博彩委员会关于客户资金独立管理的要求，级别为"
@@ -2989,14 +3108,17 @@ msgstr "本网站包含的金融交易服务仅适合这样的客户：能够承
 msgid "The financial trading services contained within this site are only suitable for customers who are able to bear the loss of all the money they invest and who understand and have experience of the risk involved in the aquistion of financial contracts. Transactions in financial contracts carry a high degree of risk. If purchased contracts expire worthless, you will suffer a total loss of your investment, which consists of the contract permium"
 msgstr "本网站包含的金融交易服务仅适合这样的客户：能够承受全部投入资金亏损的风险，了解购买金融合约的风险并具有相关经验。金融合约交易有很高的风险。如果购买的合约到期时一文不值，您将损失全部投资，包括合约费用"
 
-msgid "The first step is to open an account. You can apply online in just a few minutes"
-msgstr "第一步是开户。您可以在线申请开户，只需花费几分钟的时间"
+msgid "The first step is to open an account. You can"
+msgstr "第一步是开立账户。您可以"
+
+msgid "The first thing to do is choose the asset you wish to trade, such as gold or oil, stocks or FX rates (The value of a binary option is derived from the price of the underlying asset). A big advantage of trading options is that you are not buying or selling the actual asset"
+msgstr "首先选择您要交易的资产，如黄金、原油、股票或外汇（二元期权的价值基于标的资产价格）。期权交易一个很大的优势就是您并非买卖实际资产"
 
 msgid "The first three days of the Bullish Ladder Bottom are strong black candlesticks with consecutive lower opens and lower closes. The fourth day is a short black candlestick, but it opens higher and trades higher, leaving a long upper shadow, then closes making a new low. The fifth day is a strong white candlestick that makes a body gap with the fourth day"
-msgstr "看涨梯底形态的首三天是拥有连续较低开盘价和较低收盘价的强大黑色K 线图。第四天是短黑K 线图，但开盘价较高，交易价也较高，留下长上影，然后以新低价格收盘。第五天是与第四天形成体形缺口的强大白色K 线图"
+msgstr "看涨梯底形态的首三天是拥有连续较低开盘价和较低收盘价的强大黑色K线图。第四天是短黑K 线图，但开盘价较高，交易价也较高，留下长上影，然后以新低价格收盘。第五天是与第四天形成体形缺口的强大白色K线图"
 
 msgid "The homing pigeon is a bullish candlestick reversal pattern comprised of two red candlesticks. The first candle is a tall black one that appears in a downward price trend. The second day is also a black candle, but it is smaller and fits inside the body of the first black candle"
-msgstr "信鸽是看涨K 线图逆转形态，由两支红色K 线图组成。首支烛形线是高黑线，在下降价格趋势中出现。第二天也是黑色烛形线，但比较小，且位于首支黑色烛形线体内"
+msgstr "信鸽是看涨K线图逆转形态，由两支红色K线图组成。首支烛形线是高黑线，在下降价格趋势中出现。第二天也是黑色烛形线，但比较小，且位于首支黑色烛形线体内"
 
 msgid "The indicator is designed for use on a monthly time scale. It is the sum of a 14-month rate of change and 11-month rate of change, smoothed by a 10-period weighted moving average"
 msgstr "指标专用于每月周期。它是14月期变化率与11月期变化率的合计，以10期加权移动平均值调整平滑度"
@@ -3014,7 +3136,7 @@ msgid "The payout is the amount paid to an options trader if their prediction is
 msgstr "赔付金额即期权交易者因预测正确而获得的金额"
 
 msgid "The piercing pattern is made up of two candlesticks, the first black and the second white.Both candlesticks should have fairly large bodies and the shadows are usually, but not necessarily, small or nonexistent. The white candlestick must open below the previous close and close above the midpoint of the black candlestick's body. A close below the midpoint might qualify as a reversal, but would not be considered as bullish"
-msgstr "贯穿形态由两支K 线图组成，第一支黑色，第二支白色。两支K 线图的体形须巨大，且阴影通常、但不一定是细小或不存在。白色K线图必须在前收盘价下开盘，并在黑色K 线图体内中部以上收盘。如果在中部以下收盘可能归纳为逆转，但不会被考虑为看涨"
+msgstr "贯穿形态由两支K线图组成，第一支黑色，第二支白色。两支K线图的体形须巨大，且阴影通常、但不一定是细小或不存在。白色K线图必须在前收盘价下开盘，并在黑色K线图体内中部以上收盘。如果在中部以下收盘可能归纳为逆转，但不会被考虑为看涨"
 
 msgid "The premier platform for trading binary options in the world's financial markets"
 msgstr "全世界金融市场二元期权交易的首选平台"
@@ -3043,6 +3165,18 @@ msgstr "差异和密切相关的标准偏差测量分布的扩展范围。换句
 msgid "The volatility indices simulate various real market situations and provide an ideal platform for getting used to trading and testing strategies under various market conditions. These indices depend on volatility and drift, and help users to try out scenarios like - high volatility, low volatility, bullish and bearish trends"
 msgstr "波动率指数模拟各种真实的市场情况，并根据不同的市场情况提供理想的平台交易实践和测试策略。这些指数取决于波动率和漂移率，并帮助用户尝试各种场景，如高波动率、低波动率、看涨和看跌趋势"
 
+msgid "There are four main trade types for you to choose from"
+msgstr "共有四种主要交易供您选择"
+
+msgid "There are two types of In/Out trades"
+msgstr "范围内/外交易有两种类型"
+
+msgid "There are two types of Up/Down trades"
+msgstr "上涨/下跌交易有两种类型"
+
+msgid "There are two ways to trade Asians"
+msgstr "亚洲期权交易有两种方式"
+
 msgid "These are trades where the trader predicts if a market will finish higher or lower than a specified price target"
 msgstr "交易者预测市场收盘价将高于或低于设定目标价的交易"
 
@@ -3061,6 +3195,9 @@ msgstr "交易者选择一个目标价并预测市场在合约到期前将会触
 msgid "This Moving Average uses curve of the Normal (Gauss) distribution which can be placed by Offset parameter from 0 to 1. This parameter allows regulating the smoothness and high sensitivity of the Moving Average. Sigma is another parameter that is responsible for the shape of the curve coefficients"
 msgstr "移动平均指标使用正态（高斯）分布，以0到1两个偏移参数进行操作。此参数允许移动平均指标的平滑度和高敏感度受调节。西格马是另一个控制曲线系数形状的参数"
 
+msgid "This feature is not relevant to virtual-money accounts"
+msgstr ""
+
 msgid "This field is required"
 msgstr "此为必填项"
 
@@ -3075,12 +3212,6 @@ msgstr "这是标的资产在特定时间可以买入或卖出的即时价格"
 
 msgid "This pattern occurs when two black days appear with equal closes in a downtrend. Matching Low indicates a bottom has been made, even though the new low was tested and there was no follow through, which is indicative of a good support price"
 msgstr "此形态发生时两个黑色交易日以相同收盘价出现在下降趋势中。相符最低价显示已达到谷底，虽然测试了新的最低价，但没有加速现象，表示价格强劲"
-
-msgid "This website is marketed in the UK and Isle of Man by Binary (IOM) Ltd., First Floor, Millennium House, Victoria Road, Douglas, IM2 4RW, Isle of Man, British Isles, licenced and regulated by (1) the Gambling Supervision Commission in the Isle of Man, British Isles, current online gambling licence issued on 31 August 2012, and for UK clients by (2) the UK Gambling Commission -"
-msgstr "本网站由Binary (IOM) Ltd.在英国和马恩岛经营，地址为：First Floor, Millennium House, Victoria Road, Douglas, IM2 4RW, Isle of Man, British Isles；由(1)不列颠群岛马恩岛投资监管委员会授予牌照和监管，当前在线博彩牌照于2012 年8 月31 日颁发；而英国客户由(2)英国博采委员会授予牌照和监管-"
-
-msgid "This website is marketed in the rest of the EU, for investment products by Binary Investments (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta, licenced and regulated as a Category 3 Investment Services provider by the Malta Financial Services Authority (license no. IS/70156), and for gaming products by Binary (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta, licenced and regulated by (1) the Malta Gaming Authority in Malta, licence no MGA/CL2/118/2000, 26th May 2015 and for UK clients by (2) the UK Gambling Commission -"
-msgstr "此网站市场在欧盟其他地区，投资产品由Binary Investments (Europe) Ltd.管理，地址为  Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta，由马耳他金融服务机构授予牌照及监管为3级投资服务提供商（牌照号码为 IS/70156)），而博彩产品由Binary (Europe) Ltd.,管理，地址为：Mompalao Building, Suite 2, Tower Road, Msida MSD1825, Malta，由(1)位于马耳他的马耳他博彩管理局授予牌照和监管，牌照号码为 MGA/CL2/118/2000（2015年5 月26 日），而英国客户由(2)英国博采委员会授予牌照和监管-"
 
 msgid "Three Advancing White Soldiers (CDL3WHITESOLDIERS)"
 msgstr "上升三白兵 (CDL3WHITESOLDIERS)"
@@ -3157,6 +3288,9 @@ msgstr "要取款前请输入刚发送到您邮箱的特殊验证令牌码"
 msgid "Token"
 msgstr "令牌"
 
+msgid "Token Management"
+msgstr "令牌管理"
+
 msgid "Token management"
 msgstr "令牌管理"
 
@@ -3166,14 +3300,14 @@ msgstr "令牌名称"
 msgid "Token permissions"
 msgstr "令牌权限"
 
-msgid "Tokens are special codes for accessing Binary mobile applications and third party tools"
-msgstr "令牌是访问Binary移动应用程序和第三方工具的特殊代码"
-
 msgid "Tooltip background"
 msgstr "工具提示背景"
 
 msgid "Tooltip text"
 msgstr "工具提示文本"
+
+msgid "Total Copiers"
+msgstr "复制者总数"
 
 msgid "Total Cost"
 msgstr "成本总计"
@@ -3181,11 +3315,17 @@ msgstr "成本总计"
 msgid "Total Profit/Loss"
 msgstr "利润/亏损合计"
 
+msgid "Total Trades"
+msgstr "总交易量"
+
 msgid "Touch"
 msgstr "触及"
 
 msgid "Touch/No Touch"
 msgstr "触及/未触及"
+
+msgid "Touch/No Touch - Predict if the market will touch or not touch a target price"
+msgstr "触及/未触及 - 预测市场价格是否会触及目标价格"
 
 msgid "Tourism"
 msgstr "旅游"
@@ -3199,38 +3339,38 @@ msgstr "交易"
 msgid "Trade Confirmation"
 msgstr "确认交易"
 
-msgid "Trade all market conditions"
-msgstr "在所有市场环境交易"
+msgid "Trade Types"
+msgstr "交易类型"
 
-msgid "Trade to your budget"
-msgstr "按照预算交易"
-
-msgid "Trade to your strategy"
-msgstr "按照策略交易"
+msgid "Trade according to your preferred strategy"
+msgstr "按照您倾向的策略交易"
 
 msgid "Trade using"
 msgstr "交易方法为"
 
-msgid "Trade when you want to trade"
-msgstr "随时按需交易"
+msgid "Trader"
+msgstr "交易者"
 
-msgid "Trade with confidence"
-msgstr "充满自信地交易"
+msgid "Trader's Statistics"
+msgstr "交易员统计"
 
-msgid "Trade your way"
-msgstr "以您的方式交易"
+msgid "Trades Profitability"
+msgstr "交易盈利率"
+
+msgid "Trades break down"
+msgstr "交易明细"
+
+msgid "Trading Experience"
+msgstr ""
 
 msgid "Trading Times"
 msgstr "交易时间"
 
-msgid "Trading binaries is remarkably easy, and requires only 3 simple steps"
-msgstr "二元期权交易非常简易，仅需要3个简单步骤"
+msgid "Trading binary options is relatively easy, and you can purchase a trade in only three simple steps"
+msgstr "二元期权交易非常简单，仅需执行三个简单的步骤即可购入交易"
 
 msgid "Trading binary options may not be suitable for everyone, so please ensure that you fully understand the risks involved. Your losses can exceed your initial deposit and you do not own or have any interest in the underlying asset. In regards to binary options which are gambling products, remember that gambling can be addictive - please play responsibly"
 msgstr "二元期权交易并不适合所有人。因此，请确保您完全明白有关的风险。您的亏损可能会超越起始资金存款，而您并不拥有或占有任何标的资产。在进行博彩产品交易的二元期权交易时，请务必记住博彩活动可能会上瘾，并提醒自己要承担责任"
-
-msgid "Trading the financial markets can become addictive. Fill in the form below to limit your participation on the website or send a signed letter or fax to our customer support team. Once set, you can only tighten your limits. Limits will only be removed or loosened after 7 days with the exception of the self- exclusion date, which cannot be removed or altered once you have confirmed it. To remove or increase your limits, please contact"
-msgstr "金融市场交易可能使人上瘾。请填写下表以限制您对本网站的参与。您也可发送签名信或传真到我们的客服团队。一旦设定好，您只能收紧您的限制。限制只能在 7 天后取消或放宽，自我禁止期在确认后不能取消或更改。若要解除或增加您的限制，请联系"
 
 msgid "Tradingview for Binary.com"
 msgstr "通过Binary.com使用Tradingview"
@@ -3240,6 +3380,9 @@ msgstr "转账"
 
 msgid "Transfer to another Binary account"
 msgstr "转账到另一个Binary账户"
+
+msgid "Transparent risk and potential reward"
+msgstr "风险透明化和潜在奖励"
 
 msgid "Triangular Moving Average (TRIMA)"
 msgstr "三角移动平均线(TRIMA)"
@@ -3271,8 +3414,17 @@ msgstr "交易额"
 msgid "Two Crows (CDL2CROWS)"
 msgstr "二鸦 (CDL2CROWS)"
 
+msgid "Two-way pricing"
+msgstr "双边报价"
+
+msgid "Types of lookbacks"
+msgstr ""
+
 msgid "Typical Price (TYPPRICE)"
 msgstr "典型价格 (TYPPRICE)"
+
+msgid "US Patents"
+msgstr "美国专利"
 
 msgid "USD"
 msgstr "美元"
@@ -3301,8 +3453,8 @@ msgstr "独特3河 (CDLUNIQUE3RIVER)"
 msgid "Unique Three River Bottom is a bullish candlestick pattern made up of three candles: The 1st candle has a long and bearish body, the 2nd candle is a hammer, and its body is inside the 1st bar's body, the 3rd candle is small and bullish, its Close price is lower than 2nd bar's"
 msgstr "独特三河床是三支烛形线组成的看涨K线图形态：第一支烛形线具长看跌体形，第二支烛形线是锤子，其体形位于第一条形体内。第三支烛形线较小，是看涨形态，其收盘价比第二条形的收盘价低"
 
-msgid "Up to 100% returns on rise/fall trades"
-msgstr "上涨/下跌交易高达100%回报率"
+msgid "Up - Predict that the market will end higher than the average price"
+msgstr "高于 - 预测市价在收盘时高于平均价格"
 
 msgid "Up/Down"
 msgstr "上涨/下跌"
@@ -3346,8 +3498,8 @@ msgstr "客户可使用本网站进行全天候的货币、指数、股票和大
 msgid "Variance (VAR)"
 msgstr "差异 (VAR)"
 
-msgid "Various customisable features   load and arrange assets, charts, and other resources however you see fit"
-msgstr "随意设置各种可定制功能加载和安排资产、图表和其他资源"
+msgid "Various customisable features like loading and arranging assets, charting, and other resources however you see fit"
+msgstr "随意设置各种可定制功能如资产、图表和其他资源的加载和安排"
 
 msgid "Verification code has been sent to your email"
 msgstr "验证代码已发送到您的邮箱"
@@ -3367,8 +3519,8 @@ msgstr "查看"
 msgid "View Statement"
 msgstr "查看报表"
 
-msgid "Volatile markets"
-msgstr "震荡市场"
+msgid "Volatility Index Markets"
+msgstr "波动率指数市场"
 
 msgid "Volatility Indicators"
 msgstr "波动率指标"
@@ -3376,8 +3528,11 @@ msgstr "波动率指标"
 msgid "Volatility Indices"
 msgstr "波动率指数"
 
-msgid "Volatility indices"
-msgstr "波动率指数"
+msgid "Volatility Indices are further categorized into two types"
+msgstr "波动率指数进一步分为两种类型"
+
+msgid "Volatility indices - Binary.com's proprietary indices that simulate market forces"
+msgstr "波动率指数 - Binary.com内部编制的模拟市场力量指数"
 
 msgid "WMA stands for weighted moving average. It helps to smooth the price curve for better trend identification. It places even greater importance on recent data than the EMA does"
 msgstr "WMA代表加权移动平均指标。它使价格曲线更加平滑，让趋势识别工作更加方便。它比EMA更加注重近期数据"
@@ -3388,20 +3543,20 @@ msgstr "根据牌照的要求，在公司失去偿付能力的情况下，我们
 msgid "We do it again. BetOnMarkets.com follows up our 2007 award by being voted 'Best Fixed-Odds Financial Trading Provider' for 2008"
 msgstr "我们再次获奖。在2007年获奖之后，BetOnMarkets.com 又一次被《Shares Magazine》杂志选为2008年度“最佳固定赔率金融交易提供商”"
 
-msgid "We don't usually require any documents as we can verify your identity online"
-msgstr "通常，您无需提供任何文件即可完成在线身份认证"
+msgid "We offer three types lookbacks"
+msgstr ""
 
 msgid "We rebrand BetOnMarkets.com as"
 msgstr "我们把 BetOnMarkets.com 更名为"
+
+msgid "We segregate all client funds and hold them in secure and licensed financial institutions, according to the conditions of our trading licenses"
+msgstr "我们按照交易牌照规定条件将所有客户的基金集合并保留在安全及拥有牌照的金融机构里"
 
 msgid "We're granted patents for 'Computer trading system and method for speculating on a financial market' and 'Computer trading system for offering custom financial market speculations'. The patents show our ability to innovate and stay ahead of the pack"
 msgstr "我们获得了“用于金融市场投机的电脑交易系统及方法”和“用于定制金融市场投机的电脑交易系统”两项专利。这些专利说明了我们的创新性和领先水平"
 
 msgid "We're really proud of this award. We're strongly committed to offering an ethical and customer-focused trading experience, and the award shows that BetOnMarkets is a trusted brand that listens and caters to customers, whether they are experienced traders or novices. We offer customer services in English, Indonesian, Russian, Chinese and Spanish"
 msgstr "获得这个奖项，我们真的很自豪。我们不懈努力，提供合乎道德、以客户为中心的交易体验。该奖项表明 BetOnMarkets 是一个值得信赖的品牌，愿意接受客户意见并满足客户需求，无论客户是经验丰富的交易者还是新手。我们为客户提供英语、印尼语、俄语、中文和西班牙语服务"
-
-msgid "Websocket Server"
-msgstr "Websocket 服务器"
 
 msgid "Webtrader"
 msgstr "Webtrader"
@@ -3427,14 +3582,26 @@ msgstr "加权移动平均指标 (WMA)"
 msgid "Welcome to Binary.com Webtrader"
 msgstr "欢迎来到 Binary.com Webtrader"
 
-msgid "What is pep?"
-msgstr "Pep 是什么？"
+msgid "What are OTC indices and stocks?"
+msgstr "场外交易指数和股票是什么？"
 
-msgid "When you are satisfied with the trade price, instantly execute your trade"
-msgstr "一旦您对交易价格感到满意，即可立刻执行交易"
+msgid "What are lookbacks"
+msgstr ""
+
+msgid "What is pep?"
+msgstr "Pep是什么？"
+
+msgid "What is this?"
+msgstr ""
+
+msgid "When you are satisfied with the price that you receive, execute your trade immediately. With our unique platform, you won t have to contend with  slippages  or gaping markets. And most importantly, there are no invisible fees. You can also sell back any long-term trades at any time before they expire to protect the profit you may have earned or to minimise your losses"
+msgstr "当您对收到的价格感到满意时请立刻执行交易。通过我们的独特平台，您不会遇到滑价或跳空市场。更重要的是，不会有任何未显示的费用。您也可在任何长期合约到期前随时售出，以保护您的赚取利润或将亏损降至最低额"
 
 msgid "When you trade with Binary.com, you can be assured that your deposits are held in a separate trust account and are not used for any other purpose"
 msgstr "通过Binary.com进行交易，我们保证您的定金将由独立信托账户保管，不会用作任何其他用途"
+
+msgid "Where does Binary.com hold my funds?"
+msgstr "Binary.com将我的基金保留在哪里？"
 
 msgid "While on the go, you can"
 msgstr "出门在外时，您可"
@@ -3442,29 +3609,26 @@ msgstr "出门在外时，您可"
 msgid "Why Choose Binary Trading?"
 msgstr "为何选择二元期权交易？"
 
+msgid "Why trade with Binary.com"
+msgstr "为何通过Binary.com进行交易"
+
 msgid "Will I need to install any software?"
 msgstr "我需要安装任何软件吗？"
 
 msgid "Williams' %R (WILLR)"
 msgstr "威廉指标 (WILLR)"
 
-msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing 'Stays In' with a narrow price target"
-msgstr "如果您预测正确的话，即可赢得相等于投注额10-1000%的回报率。选择预测范围狭窄的“保持在范围内”期权可增加回报率"
+msgid "Win the multiplier times the close minus low"
+msgstr ""
 
-msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing a 'Touch' trade, with a price target farther away from the current price"
-msgstr "如果您预测正确的话，即可赢得相等于投注额10-1000%的回报率。选择预测价格距离当前价格更远的“触及”交易可增加回报率"
+msgid "Win the multiplier times the high minus close"
+msgstr ""
 
-msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing a price target farther away from the current price"
-msgstr "如果您预测正确的话，即可赢得相等于投注额10-1000%的回报率。选择距离当前价格更远的预测价格可增加回报率"
+msgid "Win the multiplier times the high minus low"
+msgstr ""
 
 msgid "With Binary.com you can trade"
 msgstr "通过Binary.com，您可以交易"
-
-msgid "With Binary.com's unique platform, there's no risk of 'slippage' or gapping markets. And no hidden fees"
-msgstr "Binary.com独特交易平台没有滑点或跳空市场的风险，也没有隐藏费用"
-
-msgid "With Binary.com, the most you can lose is the amount you stake at the start of your trade"
-msgstr "通过Binary.com交易，您将蒙受的最大损失就是初始投注额"
 
 msgid "Withdraw funds"
 msgstr "取出资金"
@@ -3493,68 +3657,59 @@ msgstr "Y-轴网格线"
 msgid "Y-axis labels"
 msgstr "Y-轴标签"
 
+msgid "Yearly Profitable Trades"
+msgstr "年度盈利交易"
+
 msgid "Yes"
 msgstr "是"
 
-msgid "You can choose payouts from $1 to $50,000. This wide payout range is ideal for both small and large traders"
-msgstr "您可选择从1美元到5万美元的赔付额。此范围广泛的赔付额对大小交易者都非常适合"
+msgid "You are not copying any trade(s) yet"
+msgstr "您尚未复制任何交易"
 
-msgid "You can open an account, deposit funds and begin trading within minutes"
-msgstr "仅需数分钟，您就可以完成开户、入金并开始交易"
-
-msgid "You can sell back long-term trades at any time to profit from changing market conditions"
-msgstr "您可随时回售长期交易，在市场环境变化中获利"
-
-msgid "You can set the length of your trade, from 10 seconds to 365 days"
-msgstr "您可设定交易期限，从10 秒至 365 天"
-
-msgid "You can trade a range of markets, timescales and indices - 24/7"
-msgstr "全天候进行广泛的市场、期限和指数交易"
+msgid "You can"
+msgstr "您可以"
 
 msgid "You don't need to deposit any money to open an account, but you need to deposit funds before you can start trading"
 msgstr "开户无需存入资金，但您需要在正式交易前入金"
 
-msgid "You get fair and transparent pricing, whatever your position"
-msgstr "您不论身处何地都可获得最公平、透明的报价"
-
 msgid "You have sold the following contract"
 msgstr "您已卖出以下合约"
-
-msgid "You have to register webtrader and get App ID before you can use different OAuth server for authentication. For more information refer to OAuth details on"
-msgstr "使用各OAuth服务器进行验证前须先注册webtrader并领取应用程序ID。欲知详情，请到此参阅OAuth信息"
 
 msgid "You haven't saved any templates yet"
 msgstr "您尚未保存任何模板"
 
+msgid "You only need to make four decisions to execute a binary contract"
+msgstr "您只需要做四个决定，即可交易二元期权合约"
+
 msgid "You pay"
 msgstr "您支付"
-
-msgid "You set the barrier(s) to define your position"
-msgstr "您可设置障碍水平用于确认头寸参数"
 
 msgid "You will be automatically logged out after such time"
 msgstr "在该时间后您将自动退出登录"
 
-msgid "You'll be surprised by the returns you can make"
-msgstr "您将对您所能获得的回报感到惊讶"
+msgid "You wish to allow other traders to copy your trades"
+msgstr "您想允许其他交易者复制您的交易"
+
+msgid "You wish to copy another trader's trades"
+msgstr "您想要复制其他交易者的交易"
 
 msgid "Your Binary.com account is created, but to start trading you need to allow Webtrader access it"
 msgstr "您已开立Binary.com账户，但须向 Webtrader 提供访问权限才可开始交易"
 
+msgid "Your account (%) is locked, please contact customer support for more info."
+msgstr "您的账户 (%) 已锁定, 请联系客服部了解更多信息。"
+
 msgid "Your browser is not supported"
 msgstr "您的浏览器不受支持"
+
+msgid "Your copying settings"
+msgstr "您的复制设置"
 
 msgid "Your email"
 msgstr "您的电子邮件"
 
-msgid "Your money is always safe with Binary.com. At all times, it is held in segregated AAA-rated banks, which is a condition of our trading licenses"
-msgstr "您存入Binary.com的资金始终是安全的。资金将集合并一直由AAA级的银行托管，这是我们的交易执照条件之一"
-
 msgid "Your new account balance is"
 msgstr "您的新账户余额是"
-
-msgid "Your risks are known"
-msgstr "您对所冒风险已预先知晓"
 
 msgid "Your transaction reference is"
 msgstr "您的交易参考号是"
@@ -3568,11 +3723,17 @@ msgstr "缩放"
 msgid "allowing clients to develop their own automated trading robots with  drag-and-drop  simplicity"
 msgstr "允许客户轻松使用“拖放”操作开发自己的自动化交易机器人"
 
-msgid "and for Irish clients by (3) the Revenue Commissioners in Ireland, current remote bookmaker's licence issued on 29 September 2015 (licence no 1010285). This website's services are not made available in certain countries such as the USA, Costa Rica, Hong Kong, or to persons under age 18"
-msgstr "以及爱尔兰客户由 (3) 爱尔兰税务专员办事处授予牌照和监管，当前远程博彩牌照号码为 1010285（2015年9月29日)。本网站不向一些国家如美国、哥斯达黎加、香港及18岁以下的用户提供服务"
+msgid "and for Irish clients by (3) the Revenue Commissioners in Ireland (Remote Bookmaker's Licence no. 1010285 issued on 1 July 2017). View complete"
+msgstr ""
+
+msgid "and start learning how to trade"
+msgstr "并开始学习如何交易"
 
 msgid "apostrophe (') are allowed"
 msgstr "允许使用省略号(')"
+
+msgid "apply online"
+msgstr "在线申请"
 
 msgid "at a valuation of US$ 50.5 million"
 msgstr "价值为5050万美元"
@@ -3589,6 +3750,9 @@ msgstr "佣金"
 msgid "contact support"
 msgstr "联系客服部"
 
+msgid "create a Read-only token, and share the token with your copier(s)"
+msgstr ""
+
 msgid "customer support"
 msgstr "客服部"
 
@@ -3598,17 +3762,14 @@ msgstr "日"
 msgid "days"
 msgstr "日"
 
+msgid "deposit funds and begin trading within minutes"
+msgstr "存入资金并于数分钟内开始交易"
+
 msgid "disposes of its stake"
 msgstr "将其股份抛售"
 
 msgid "e-commerce site for branded merchandise"
 msgstr "品牌商品专用电子商务网站"
-
-msgid "e.g"
-msgstr "例如"
-
-msgid "e.g, www2.binary.com, www.binaryqa36.com"
-msgstr "例如www2.binary.com, www.binaryqa36.com"
 
 msgid "end time"
 msgstr "结束时间"
@@ -3631,20 +3792,14 @@ msgstr "小时"
 msgid "hours"
 msgstr "小时"
 
-msgid "https://developers.binary.com/"
-msgstr "https://developers.binary.com/"
-
-msgid "id-HXSSH5AIQylFwsiUcXGqpXApvnFeg"
-msgstr "id-HXSSH5AIQylFwsiUcXGqpXApvnFeg"
-
 msgid "if this is not your country of residence"
 msgstr "如不是您的居住国"
 
+msgid "in just a few minutes"
+msgstr "于数分钟内"
+
 msgid "in the future, the"
 msgstr "未来的"
-
-msgid "information about your trading exprience and personal finance"
-msgstr "您的交易经验与个人财务信息"
 
 msgid "is Binary's advanced desktop trading platform. Its multi-window interface provides maximum flexibility and suits the needs of active traders working on their desktop PCs"
 msgstr "是Binary的先进桌面交易平台。多窗口界面保证了最大的灵活性，可满足活跃交易员通过桌面电脑交易的需求"
@@ -3688,11 +3843,14 @@ msgstr "分钟"
 msgid "next tick"
 msgstr "下一个跳动点"
 
-msgid "oauth"
-msgstr "oauth"
-
 msgid "of \"Now\", the"
 msgstr "是“现在”，"
+
+msgid "open a free $10k fully-functional virtual-money account"
+msgstr "免费开立总额高达一万美元的全功能虚拟资金账户"
+
+msgid "open an account"
+msgstr "开立账户"
 
 msgid "our helpful support desk"
 msgstr "我们热心的支持人员"
@@ -3702,6 +3860,9 @@ msgstr "支付代理"
 
 msgid "points"
 msgstr "点"
+
+msgid "sec"
+msgstr ""
 
 msgid "second"
 msgstr "秒"
@@ -3730,18 +3891,6 @@ msgstr "跳动点"
 msgid "ticks"
 msgstr "跳动点"
 
-msgid "trading experience"
-msgstr "交易经验"
-
-msgid "trading frequency"
-msgstr "交易频率"
-
-msgid "view license"
-msgstr "查看牌照"
-
-msgid "websocket"
-msgstr "websocket"
-
 msgid "www.Binary.com"
 msgstr "www.Binary.com"
 
@@ -3751,8 +3900,8 @@ msgstr "是"
 msgid "{agent.commission}%"
 msgstr "{代理.佣金}%"
 
-msgid "| Payout"
-msgstr "| 赔付"
+msgid "| Return"
+msgstr ""
 
 msgid "enabling clients, affiliates, and developers to buy and sell Binary.com products"
 msgstr "让客户、联盟会员和程序开发员买卖Binary.com的产品"

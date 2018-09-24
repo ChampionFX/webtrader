@@ -5,8 +5,6 @@ import html from 'text!help/help.html';
 import content from 'text!help/content.html'
 import 'css!help/help.css';
 
-"use strict";
-
 let win = null,
     sublist_items = [];
 
@@ -44,11 +42,9 @@ const init = () => {
     const state = {
         current: {
             list: null,
-            loading: false,
             sublist: null,
             content_page: null,
             content: null,
-            show_clear: false
         },
         list: [{
             text: "About Binary.com".i18n(),
@@ -76,16 +72,31 @@ const init = () => {
             }, {
                 text: "Group history".i18n(),
                 id: "group-history"
+            }, {
+                text: "Patents".i18n(),
+                id: "patents"
             }],
             getting_started: [{
                 text: "Why choose Binary Trading?".i18n(),
                 id: "why-binary"
             }, {
-                text: "Benefits of Binary Trading".i18n(),
-                id: "binary-benefits"
+                text: "Binary options basics".i18n(),
+                id: "binary-options-basics"
             }, {
-                text: "How to trade Binaries?".i18n(),
+                text: "Why trade with Binary.com".i18n(),
+                id: "why-trade-binary"
+            }, {
+                text: "How to trade binary options?".i18n(),
                 id: "trade-binaries"
+            }, {
+                text: "How to trade the Volatility Indices markets?".i18n(),
+                id: "how-trade-vol"
+            }, {
+                text: "Smart Indices".i18n(),
+                id: "smart-indices"
+            }, {
+                text: "OTC indices and stocks".i18n(),
+                id: "otc-stocks-indices"
             }],
             trade_types: [{
                 text: "Up/Down".i18n(),
@@ -102,6 +113,9 @@ const init = () => {
             }, {
                 text: "Digits".i18n(),
                 id: "digits"
+            }, {
+                text: "Lookbacks".i18n(),
+                id: "lookback"
             }],
             indicators: [{
                 "text": "Volatility Indicators".i18n(),
@@ -129,8 +143,8 @@ const init = () => {
                 text: "Opening an account".i18n(),
                 id: "opening-account"
             }, {
-                text: "Financial Security".i18n(),
-                id: "financial-security"
+                text: "Client funds".i18n(),
+                id: "client-funds"
             }, {
                 text: "Depositing and withdrawing funds".i18n(),
                 id: "deposit-withdraw"
@@ -251,7 +265,6 @@ const init = () => {
     state.search = (e) => {
         const query = $(e.target).val().toLowerCase();
         if (query.length > 0) {
-            state.current.show_clear = true;
             state.current.list = null;
             state.current.content_page = null;
             state.current.sublist = sublist_items.filter((item) => {
@@ -277,7 +290,7 @@ const init = () => {
                     };
                 });
         } else {
-            state.current.show_clear = false;
+            $('.highlight').removeClass('highlight');
         }
     }
 
@@ -295,11 +308,6 @@ const init = () => {
             const offset = $(".content " + subsection).offset().top - 50;
             $(".content").animate({ scrollTop: offset }, 500);
         }
-    }
-
-    state.clearSearch = () => {
-        $(".help-dialog .help-search").val("");
-        state.current.show_clear = false;
     }
 
     //Concat all the sublist items into one array so that we can later use it for searching.
@@ -325,7 +333,7 @@ const init = () => {
                 title_s = "";
             } else if (walker.currentNode.nodeName == "H3") {
                 title_s = walker.currentNode.innerText;
-                if (title_s.toLowerCase().indexOf(q) != -1) {
+                if (title_s.toLowerCase().indexOf(q) !== -1) {
                     const matchingText = title_s.substr(title_s.toLowerCase().indexOf(q), q.length);
                     const title_s_copy = title_s.replace(matchingText, "<span class='highlight'>" + matchingText + "</span>");
                     while (walker.nextNode()) {
@@ -349,7 +357,7 @@ const init = () => {
                     continue;
                 }
             } else if (walker.currentNode.nodeName !== "DIV" && walker.currentNode.nodeName !== "H2" &&
-                walker.currentNode.nodeName !== "H3" && walker.currentNode.innerText.toLowerCase().indexOf(q) != -1 &&
+                walker.currentNode.nodeName !== "H3" && walker.currentNode.innerText.toLowerCase().indexOf(q) !== -1 &&
                 walker.currentNode.nodeName !== "LI" && walker.currentNode.nodeName !== "STRONG" &&
                 walker.currentNode.nodeName !== "H4") {
                 let index = walker.currentNode.innerText.toLowerCase().indexOf(q);
