@@ -235,12 +235,13 @@ export const init = function($parentObj) {
       if(!local_storage.get('oauth')) {
          return;
       }
+      console.log(local_storage.get('oauth'));
       /* query string parameters can tempered.
              make sure to get loginid from webapi instead */
       var oauth = local_storage.get('oauth');
       Promise.all(
          oauth.slice(1)
-            .map(acc => ({ authorize: acc.token}))
+            .map(acc => ({ authorize: acc.token }))
             .map(req => liveapi.send(req))
       )
          .then((results) =>
@@ -289,7 +290,7 @@ export const init = function($parentObj) {
                });
                return;
             }
-            console.error(err.message);
+            console.error(err);
             $.growl.error({message: err.message});
             //Remove token and trigger login-error event.
             local_storage.remove('oauth');

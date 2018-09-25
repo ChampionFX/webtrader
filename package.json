@@ -48,7 +48,7 @@
     "showdown": "^1.6.3"
   },
   "scripts": {
-    "test": "node test.js",
+    "test": "echo 'test command not supported'",
     "deploy-gh-pages": "grunt if:live if:beta",
     "start": "grunt && concurrently -k \"grunt watch\" \"grunt connect\"",
     "watch": "grunt watch",
@@ -58,8 +58,7 @@
     "sloc": "grunt sloc",
     "major-rel": "grunt bump:major",
     "minor-rel": "grunt bump:minor",
-    "patch-rel": "grunt bump:patch",
-    "test": "echo 'test command not supported'"
+    "patch-rel": "grunt bump:patch"
   },
   "repository": {
     "type": "git",

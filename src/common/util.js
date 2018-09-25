@@ -342,8 +342,16 @@ var Cookies = {
         type: currencies_config[id.currency] ? currencies_config[id.currency].type : ''
       }
     }).filter(function(id) {
-      return loginids.map(function(_id) { return _id.id }).indexOf(id.id) === -1;
+    return loginids.map(function(_id) { return _id.id }).indexOf(id.id) === -1;
     });
+
+    return oauth_loginids && oauth_loginids.length > 0 ? oauth_loginids : loginids;
+    },
+    residence: function() {
+        return Cookies.get_by_name("residence");
+    }
+}
+
 /**
  * This includes all loginIds, including the disabled accounts too
 */
@@ -363,7 +371,7 @@ function loginids() {
 
 function oAuthLoginIds() {
   var currencies_config = local_storage.get("currencies_config") || {};
-  return (local_storage.get("oauth") || []).map(function(id){
+  return (local_storage.get("oauth") || []).map(function(id) {
     return {
       id: id.id,
       is_real: !id.is_virtual,

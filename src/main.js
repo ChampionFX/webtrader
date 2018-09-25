@@ -184,7 +184,8 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                 tradingTimes.init(elem);
                 elem.click();
             });
-            if(isChampionFx()){
+
+            if (isChampionFx()) {
                 $navMenu.find("a.token-management").hide();
             } else {
                 //Register async loading of token-management sub-menu
@@ -283,18 +284,6 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                     elem.click();
                 });
 
-            // Hide help menu if champion-fx
-            if(isChampionFx()){
-                $navMenu.find("a.help").parent().hide();
-            } else{
-                //Register async loading of help dialog
-                load_ondemand($navMenu.find("a.help"), 'click', 'Loading help docs...'.i18n(), 'help/help',
-                    function(help) {
-                        var elem = $navMenu.find("a.help");
-                        help.init_help(elem);
-                        elem.click();
-                });
-
             load_ondemand($navMenu.find("a.copytrade"), "click", "Loading Copy Trade...".i18n(), "copytrade/index",
               function(copytrade) {
                   var elem = $navMenu.find("a.copytrade");
@@ -308,6 +297,19 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                   mam.init(elem);
                   elem.click();
               });
+
+            // Hide help menu if champion-fx
+            if (isChampionFx()) {
+                $navMenu.find("a.help").parent().hide();
+            } else {
+                //Register async loading of help dialog
+                load_ondemand($navMenu.find("a.help"), 'click', 'Loading help docs...'.i18n(), 'help/help',
+                    function(help) {
+                        var elem = $navMenu.find("a.help");
+                        help.init_help(elem);
+                        elem.click();
+                });
+            }
         };
         
         require(["navigation/navigation", "jquery-ui", "css!main.css","css!binary-style"], function(navigation) {
