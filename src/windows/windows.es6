@@ -235,7 +235,6 @@ export const init = function($parentObj) {
       if(!local_storage.get('oauth')) {
          return;
       }
-      console.log(local_storage.get('oauth'));
       /* query string parameters can tempered.
              make sure to get loginid from webapi instead */
       var oauth = local_storage.get('oauth');
