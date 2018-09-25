@@ -2,6 +2,9 @@ $HELP_LIST_ITEM_HEIGHT: 40px;
 $MAIN_ORANGE: #E98024;
 
 .ui-dialog .ui-dialog-content.help-dialog {
+    h2 {
+        padding-top: 20px;
+    }
     padding: 0px;
     .list,
     .sublist {
