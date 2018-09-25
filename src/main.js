@@ -298,7 +298,6 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                   elem.click();
               });
 
-            // Hide help menu if champion-fx
             if (isChampionFx()) {
                 $navMenu.find("a.help").parent().hide();
             } else {

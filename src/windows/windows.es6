@@ -205,8 +205,6 @@ export const init = function($parentObj) {
          .cached.send({trading_times: new Date().toISOString().slice(0, 10)})
          .then((markets) => {
             markets = menu.extractChartableMarkets(markets);
-            if(isChampionFx())
-                  _.remove(markets, {display_name:"Volatility Indices"});
             /* return a random element of an array */
             const rand = (arr) => arr[Math.floor(Math.random() * arr.length)];
             const timePeriods = ['2h', '4h', '8h', '1d'];

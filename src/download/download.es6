@@ -302,9 +302,6 @@ import html from 'text!./download.html';
                     liveapi
                         .cached.send({ trading_times: new Date().toISOString().slice(0, 10) })
                         .then((data) => {
-                            if(isChampionFx())
-                                _.remove(data.trading_times.markets,(obj) => obj.name==="Volatility Indices");
-
                             markets = menu.extractChartableMarkets(data);
                             /* add to instruments menu */
                             markets = menu.sortMenu(markets);
