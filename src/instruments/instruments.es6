@@ -16,7 +16,6 @@ function refresh_active_symbols() {
         .then(function(data) {
             local_storage.set('active_symbols', data.active_symbols);
             const active_symbols = [];
-            console.log(data);
             const active_markets = _(data.active_symbols).groupBy('market').map(function(symbols) {
                 const sym = _.head(symbols);
                 const market = { name: sym.market, display_name: sym.market_display_name };
