@@ -13,7 +13,7 @@ const show_error = (err) => {
 };
 const refresh_active_symbols = () => {
    liveapi
-      .send({ active_symbols: 'brief', "landing_company": "champion" })
+      .send({ active_symbols: 'brief' })
       .then((data) => {
          /* clean up the data! */
          let markets = _(data.active_symbols).groupBy('market').map((symbols) => {

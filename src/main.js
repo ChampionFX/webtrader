@@ -25,7 +25,7 @@ window.requirejs.config({
         "indicator_levels": "charts/indicators/level",
         "binary-style": "<style-url>/binary",
         "babel-runtime/regenerator": "lib/regenerator-runtime/runtime",
-        "webtrader-charts" : "lib/webtrader-charts/dist/webtrader-charts",
+        "webtrader-charts" : "lib/webtrader-charts/dist/webtrader-charts.iife",
         "chosen": "lib/chosen-js/chosen.jquery",
         "highstock-release": "lib/highstock-release",
     },
@@ -39,6 +39,14 @@ window.requirejs.config({
     waitSeconds: 0,
     /* fix for requriejs timeout on slow internet connectins */
     "shim": {
+        "webtrader-charts": {
+            exports: "WebtraderCharts",
+            deps: [
+              'moment',
+              'jquery',
+              'highstock-release/highstock',
+            ]
+        },
         "babel-runtime/regenerator": {
             exports: "regeneratorRuntime"
         },
@@ -176,7 +184,8 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                 tradingTimes.init(elem);
                 elem.click();
             });
-            if(isChampionFx()){
+
+            if (isChampionFx()) {
                 $navMenu.find("a.token-management").hide();
             } else {
                 //Register async loading of token-management sub-menu
@@ -267,14 +276,6 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                     elem.click();
                 });
 
-            //Register async loading of config dialog
-            load_ondemand($navMenu.find("a.config"), "click", "Loading Configurations ...".i18n(), "config/config",
-                function(config) {
-                    var elem = $navMenu.find("a.config");
-                    config.init(elem);
-                    elem.click();
-                });
-
             //Register async loading of custom theme dialog
             load_ondemand($navMenu.find("a.theme_custom"), "click", "Loading custom theme configuration...".i18n(), "themes/custom_theme/custom_theme",
                 function(custom_theme) {
@@ -283,19 +284,20 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                     elem.click();
                 });
 
-            // Hide help menu if champion-fx
-            if(isChampionFx()){
-                $navMenu.find("a.help").parent().hide();
-            } else{
-                //Register async loading of help dialog
-                load_ondemand($navMenu.find("a.help"), 'click', 'Loading help docs...'.i18n(), 'help/help',
-                    function(help) {
-                        var elem = $navMenu.find("a.help");
-                        help.init_help(elem);
-                        elem.click();
-                });
-            }
+            load_ondemand($navMenu.find("a.copytrade"), "click", "Loading Copy Trade...".i18n(), "copytrade/index",
+              function(copytrade) {
+                  var elem = $navMenu.find("a.copytrade");
+                  copytrade.init(elem);
+                  elem.click();
+              });
 
+            load_ondemand($navMenu.find("a.mam"), "click", "Loading MAM...".i18n(), "mam/index",
+              function(mam) {
+                  var elem = $navMenu.find("a.mam");
+                  mam.init(elem);
+                  elem.click();
+              });
+              $navMenu.find("a.help").parent().hide();
         };
         
         require(["navigation/navigation", "jquery-ui", "css!main.css","css!binary-style"], function(navigation) {

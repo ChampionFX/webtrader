@@ -169,7 +169,7 @@ function init_state(root) {
     /* get payment agents list */
     residence_promise.then(function() {
         /*if champion-fx then don't get payment agent*/
-        if (!state.user.residence || isChampionFx())
+        if (!state.user.residence)
             return { paymentagent_list: { list: [] } };
         return liveapi.send({ paymentagent_list: state.user.residence });
     }).then(function(data) {
