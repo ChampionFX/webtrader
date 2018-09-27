@@ -199,14 +199,17 @@ const authenticate = (token) => {
       .then((val) => {
          is_authenitcated_session = true;
          local_storage.set('authorize', val.authorize); /* we can use the 'email' field retruned later */
-         const is_jpy_account = val.authorize.landing_company_name.indexOf('japan') !== -1;
-         if(!is_jpy_account) {
+         const { landing_company_name } = val.authorize;
+         const supported_landing_companies = ['costarica', 'virtual'];
+         const is_supported_landing_company = supported_landing_companies.includes(landing_company_name);
+
+         if(is_supported_landing_company) {
             fire_event('login', val);
          }
          if(local_storage.get('oauth-login')) {
             const ok = local_storage.get('oauth-login').value;
             local_storage.remove('oauth-login');
-            if(ok && !is_jpy_account) {
+            if(ok && is_supported_landing_company) {
                fire_event('oauth-login', val);
             }
          }
