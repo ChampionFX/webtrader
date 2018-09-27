@@ -254,23 +254,24 @@ export const init = function($parentObj) {
                   });
                   local_storage.set("oauth", oauth);
                   results.unshift(data);
-                  let is_jpy_account = false;
+                  let is_supported_account = true;
+                  const supported_landing_companies = ['costarica', 'virtual'];
                   for(let i = 0; i < results.length; ++i) {
                      oauth[i].id = results[i].authorize.loginid;
                      oauth[i].is_virtual = results[i].authorize.is_virtual;
-                     if (results[i].authorize.landing_company_name.indexOf('japan') !== -1) {
-                        is_jpy_account = true;
-                     }
+                     const { landing_company_name } = results[i].authorize;
+                     const is_supported_landing_company = supported_landing_companies.includes(landing_company_name);
+
+                     if (!is_supported_landing_company) is_supported_account = false;
                   }
                   local_storage.set('oauth', oauth);
-                  return is_jpy_account;
+                  return is_supported_account;
                })
          )
-         .then((is_jpy_account) => {
-            /* Japan accounts should not be allowed to login to webtrader */
-            if(is_jpy_account && is_jpy_account === true) {
+         .then((is_supported_account) => {
+            if(!is_supported_account) {
                liveapi.invalidate();
-               $.growl.error({message: 'Japan accounts are not supported.'.i18n(), duration: 6000 });
+               $.growl.error({message: 'This account is not supported'.i18n(), duration: 6000 });
                local_storage.remove('oauth');
                local_storage.remove('oauth-login');
             }
