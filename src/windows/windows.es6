@@ -271,7 +271,7 @@ export const init = function($parentObj) {
          .then((is_supported_account) => {
             if(!is_supported_account) {
                liveapi.invalidate();
-               $.growl.error({message: 'This account is not supported'.i18n(), duration: 6000 });
+               $.growl.error({message: 'This account is not supported.'.i18n(), duration: 6000 });
                local_storage.remove('oauth');
                local_storage.remove('oauth-login');
             }
