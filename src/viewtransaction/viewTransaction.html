@@ -54,7 +54,8 @@
                 class="dotted-underline smaller"></span>
       </div>
 
-      <div> <p>Entry Spot</p>
+      <div rv-if="table.isLookback | eq false">
+        <p>Entry Spot</p>
           <span rv-data-balloon="table.entry_tick_time | moment | or '-'"
                 rv-if="table.entry_tick_time"
                 rv-text="table.entry_tick | or '-'"
@@ -63,16 +64,31 @@
       <div rv-if="table.user_sold | not-eq true | and table.exit_tick | eq undefined"> <p>Current Spot</p>
           <span rv-text="table.current_spot | or '-'" rv-indicative-color="table.current_spot"></span>
       </div>
-      <div rv-if="table.user_sold | not-eq true | and table.exit_tick "> <p>Exit Spot</p>
+      <div rv-if="table.user_sold | not-eq true | and table.exit_tick | and table.isLookback | eq false"> <p>Exit Spot</p>
           <span rv-text="table.exit_tick | or '-'"></span>
       </div>
-      <div rv-if="table.barrier_count | not-eq 2"> <p>Barrier</p>
+      <div rv-if="table.isLookback">
+        <p>Close</p>
+        <span rv-text="table.exit_tick | or '-'"></span>
+      </div>
+      <div rv-if="table.multiplier">
+        <p>Multiplier</p>
+        <span rv-html="table.multiplier | format-price table.currency | or '-'"></span>
+      </div>
+      <div rv-if="table.isLookback">
+        <p>Potential Payout</p>
+        <span rv-html="table.lb_formula"></span>
+      </div>
+      <div rv-if="table.barrier_count | not-eq 2">
+          <p rv-text="table.barrier_label | or 'Barrier' | i18n"></p>
           <span rv-text="chart.barrier | or '-'"></span>
       </div>
-      <div rv-if="table.barrier_count | eq 2"> <p>High Barrier</p>
+      <div rv-if="table.barrier_count | eq 2">
+          <p rv-text="table.barrier_label | or 'High Barrier' | i18n"></p>
           <span rv-text="table.high_barrier | or '-'"></span>
       </div>
-      <div rv-if="table.barrier_count | eq 2"> <p>Low Barrier</p>
+      <div rv-if="table.barrier_count | eq 2">
+          <p rv-text="table.low_barrier_label | or 'Low Barrier' | i18n"></p>
           <span rv-text="table.low_barrier | or '-'"></span>
       </div>
 
@@ -142,10 +158,8 @@
   <div class="footer">
     <div class="sell-at-market" rv-if="sell.is_valid_to_sell | and-not table.is_ended">
 
-      <span>
-        <span class="bid-price" rv-indicative-color="sell.bid_price.value">
-          <span class="unit" rv-html="sell.bid_price.value | format-price table.currency"></span>
-        </span>
+      <span class="bid-price" rv-indicative-color="sell.bid_price.value">
+        <span class="unit" rv-html="sell.bid_price.value | format-price table.currency"></span>
       </span>
 
       <span class="sparkline" rv-sparkline="sell.bid_prices">.</span>
@@ -158,7 +172,6 @@
 
     </div>
     <span class='forward_starting orange' rv-text="fwd_starting"></span>
-    <br>
     <span class='validation' rv-text="validation | i18n"></span>
   </div>
 </div>

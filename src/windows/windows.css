@@ -8,6 +8,7 @@
     overflow: hidden;
     direction: ltr; /* .ltr-direction */
 }
+
 .rtl-direction .ui-dialog-titlebar .ui-selectmenu-text {
   text-align: right;
 }
@@ -16,12 +17,10 @@
 .ui-dialog-titlebar .ui-dialog-title.with-content {
     min-width:200px;
     width: 20%;
-    padding-bottom: 5px;
 }
 
 .ui-dialog-titlebar .ui-selectmenu-button {
     padding: 0;
-    margin-top: -.3em;
     height: 28px;
     margin-right: 5px;
     vertical-align: top;
@@ -30,11 +29,6 @@
 .ui-dialog-titlebar .title {
     margin-top: .1em;
     float:left;
-}
-
-.ui-dialog-titlebar .ui-datepicker-trigger {
-  position: absolute;
-  top: 11px;
 }
 
 /* use a maximum height for jq-ui dropdowns */
@@ -91,11 +85,16 @@ img.reload {
     right: 3px;
 }
 .ui-datepicker-trigger.ui-button {
-    margin-top: -20px;
+    margin-left: -10px;
     position: relative;
     border: none;
     background: none;
     box-shadow: none;
     font-weight: normal;
     color: #FFFFFF;
+}
+
+.windows-dateInput {
+  width: initial !important;
+  position: relative;
 }

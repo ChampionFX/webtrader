@@ -47,7 +47,7 @@ rv.formatters['one-of'] = (...args) => {
 rv.formatters['trim'] = (value) => _.trim(value);
 /* rivets formatter to negate a value */
 rv.formatters['negate'] = (value) => !value;
-/* rivets formatter to check equallity of two values */
+/* rivets formatter to check equality of two values */
 rv.formatters.eq = (value, other) => value === other;
 /* formatter to check not-equality of values */
 rv.formatters['not-eq'] = (value, other) => value !== other;
@@ -152,9 +152,12 @@ rv.formatters['bold-last-character'] = (str) => {
 }
 /* formatter to calcualte the percent of a value of another value */
 rv.formatters['percent-of'] = (changed, original) => {
-   if(changed === undefined || !original)
-      return undefined;
-   return (100*(changed - original)/original).toFixed(2)+'%';
+   if(!changed || !original) return undefined;
+   const percentage_of_amount = (100*(changed - original)/original).toFixed(2);
+   if (percentage_of_amount > 0) {
+     return `+${percentage_of_amount}%`;
+   }
+   return `${percentage_of_amount}%`;
 }
 
 rv.formatters['is-valid-email'] = (email) => email === '' || validateEmail(email);
@@ -254,15 +257,38 @@ rv.binders.chosen = {
    publishes: true,
    bind: function(el){
       const publish = this.publish;
+     //The disabling overlay element. chosen-disable is defined in main.css
+     //There is no real CSS class webtrader-chosen-disable
+     const disablingElement = $('<div class="webtrader-chosen-disable chosen-disable"></div>');
+     disablingElement.click(e => e.stopPropagation());
       $(el).chosen({width:$(el).css("width")}).change(function() {
          publish($(this).val())
       });
+     $(el).next() //Select the chosen generated element
+      .prepend(disablingElement);
    },
    unbind: (el) => $(el).chosen("destroy")
-}
+};
 
 /* binder for chosen refresh */
 rv.binders.chosenrefresh = (el) => $(el).trigger("chosen:updated");
+
+/* binder for disabling chosen */
+rv.binders.chosendisable = (el, value) => {
+  const chosenContainer = $(el).next();
+  const inputElement = chosenContainer.find('.chosen-choices input');
+  const chosenDrop = chosenContainer.find('.chosen-drop');
+  const chosenDisableElement = chosenContainer.find('.webtrader-chosen-disable');
+  if(value) {
+    inputElement.attr('disabled', value);
+    chosenDrop.hide();
+    chosenDisableElement.addClass('chosen-disable');
+  } else {
+    inputElement.removeAttr('disabled');
+    chosenDrop.show();
+    chosenDisableElement.removeClass('chosen-disable');
+  }
+};
 
 /* extend jquery ui spinner to support multiple buttons */
 $.widget('ui.webtrader_spinner', $.ui.spinner, {
@@ -327,7 +353,7 @@ rv.binders['input-enter'] = {
       });
    },
    function: true
-} 
+}
 /* bind values to jquery ui spinner options like 'min', 'max', ... */
 rv.binders['spinner-*'] = function(el,value) {
    $(el).webtrader_spinner('option', this.args[0], value);
@@ -575,17 +601,23 @@ const decimalPlaces = (num) => {
 /* rviets formatter for decimal round */
 rv.binders['decimal-round'] = {
    priority: 3001,
-   routine: (input, places) => {
+   routine: (input, places, ...rest) => {
+      let last_value = null;
       const mul = {'0': 1, '1': 10, '2': 100, '3': 1000, '4': 10000, '5': 100000, '8': 100000000}[places];
-      input = $(input);
-      input.on('input', () => {
-         const prefered_sign = input.attr('prefered-sign') || '';
-         const no_symbol = input.attr('no-symbol');
-         let val = input.val();
+      const $input = $(input);
+      const listener = () => {
+         const prefered_sign = $input.attr('prefered-sign') || '';
+         const no_symbol = $input.attr('no-symbol');
+         let val = $input.val();
          if(val === '') return;
          if(val === '-' || val === '+' && !no_symbol) return;
          const dps = decimalPlaces(val);
-         if(dps && dps <= places ) return;
+         if(last_value == val ) return;
+         if(dps && dps <= places ) {
+           last_value = val;
+           $input.trigger('change');
+           return;
+         };
          const dot = val.endsWith('.') ? '.' : '';
          let symbol = val[0];
          symbol = (symbol === '+' || symbol === '-') ? symbol : '';
@@ -595,10 +627,18 @@ rv.binders['decimal-round'] = {
          if(!isNaN(val)) {
             if(prefered_sign && symbol === '') symbol = prefered_sign;
             if(no_symbol) symbol = '';
-            input.val(symbol + val + dot);
+            $input.val(symbol + val + dot);
+            last_value = val;
+            $input.trigger('input');
          }
-      })
-
+      }
+      input._listener && $input.off('input', input._listener);
+      input._listener = listener;
+      $input.on('input', listener)
+   },
+   getValue: (el) => {
+     console.warn('getValue');
+     return el.value;
    }
 }
 
@@ -656,7 +696,7 @@ const component_twoway_bind = (self, data, keypathes) => {
          if(observer) {
             observer.options.adapters['.'].observe(observer.target, _.last(observer.keypath.split('.')), () => {
                const updated = observer.target[_.last(observer.keypath.split('.'))];
-               data.value = updated;
+               data[key] = updated;
             });
             self.componentView.observe(keypath, (value) => observer.setValue(value));
          }
@@ -666,21 +706,28 @@ const component_twoway_bind = (self, data, keypathes) => {
 rivets.components['price-spinner'] = {
    static: ['class', 'min'],
    template:
-   () => `<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+   () => `<span class="ui-spinner ui-widget ui-widget-content ui-corner-all" rv-attr-value="data.value">
                <input rv-class="data.class" type="text" rv-value="data.value" rv-decimal-round="data.decimals | or 5" no-symbol="no-symbol" />
              </span>`,
    initialize: function(el, data) {
-      const decimals = (data.decimals || 2)*1;
-      const min = (data.min || 0)*1;
       component_twoway_bind(this, data, ['data.value']);
-      $(el).on("change", () => {
-            data.value = (+data.value).toFixed(decimals);
-      });
-      $(el).trigger("change");
+      //component_twoway_bind(this, data, ['data.decimals']);
       return {
          data: data
       };
    },
+};
+
+rivets.components['loader-dark'] = {
+  template: () =>
+    `<div class="barspinner dark">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>`,
+  initialize: function(el, attributes) {}
 };
 
 export const bind = (view, state) => rv.bind(view, state);

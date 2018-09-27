@@ -1,0 +1,232 @@
+.copytrade-dialog {
+  padding: 15px 0px !important;
+
+  input {
+    &:disabled {
+      color: #aeaeae;
+      &:hover {
+        border: 1px solid #f2f2f2;
+      }
+    }
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px;
+    &__toggle {
+      margin-right: 8px;
+      span {
+        font-size: 20px;
+      }
+    }
+    &__text {
+      margin-right: auto;
+    }
+    &__controls {
+      span {
+        pointer-events: none;
+        background: none;
+      }
+    }
+  }
+
+  .hint {
+    margin: 0;
+    padding: 0px 32px;
+  }
+
+  span.text {
+    white-space: nowrap;
+  }
+  .table {
+    width: 100%;
+  }
+  .copytrade-settings {
+    margin-bottom: 10px;
+    .table {
+      margin-left: 5px;
+      width: 98%;
+      .row {
+        cursor: pointer;
+        .cell {
+          &:first-child {
+            width: 30px;
+          }
+          vertical-align: top;
+          input{
+            width: 15px;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .search {
+    background-color: #F2F2F2;
+    border-radius: 2px;
+    padding: 8px;
+    .row {
+      background-color: white;
+      .cell:first-child {
+        input {
+          border: none;
+          outline: none;
+          margin: 5px;
+          width: 90%;
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+      .cell:nth-child(2) {
+        background-color: #F2F2F2;
+        padding-left: 10px;
+        width: 20px;
+        button {
+          padding: 5px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .traderTokensEmpty {
+    text-align: center;
+    color: #F2F2F2;
+    * {
+      display: block;
+      margin: auto;
+    }
+  }
+  .tokens {
+    .row-borders {
+      &:nth-child(odd) {
+        .cell-borders {
+          border-top: 1px solid #DEDEDE;
+          padding-bottom: 5px;
+          border-bottom: 1px solid #DEDEDE;
+        }
+      }
+      &:last-child {
+        .cell-borders {
+          padding-bottom: 5px;
+          border-bottom: 1px solid #DEDEDE;
+        }
+      }
+    }
+    .table {
+      .row {
+        .cell {
+          .pointer-cursor {
+            cursor: pointer;
+          }
+          button {
+            width: 35px;
+            height: 35px;
+            padding: 0px;
+            margin: auto;
+            vertical-align: middle;
+            span {
+              padding: 0px;
+              margin: auto;
+            }
+          }
+          .details-section {
+            margin-bottom: 10px;
+            .tag {
+              background-color: #F2F2F2;
+              white-space: nowrap;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 15px;
+              font-weight: bold;
+              div {
+                width: 92%;
+              }
+            }
+            .table {
+              width: 90%;
+              margin: auto;
+              .row {
+                .cell {
+                  padding: 5px;
+                  white-space: nowrap;
+                  border: none;
+                  &:nth-child(2) {
+                    text-align: right;
+                  }
+                  input {
+                    max-width: 400px;
+                    height: 40px;
+                  }
+                  div.chosen-container {
+                    width: 100% !important;
+                    text-align: left;
+                    max-width: 400px;
+                  }
+                }
+                .button-cell {
+                  text-align: right;
+                  button {
+                    width: 100px;
+                  }
+                }
+                .ignore-bottom-border {
+                  border-bottom: none;
+                }
+              }
+            }
+            .traderStats {
+              .row {
+                &:not(:last-child) {
+                  .cell {
+                    border-bottom: 1px solid #DEDEDE;
+                  }
+                }
+                .cell {
+                  padding: 10px;
+                  white-space: normal;
+                  word-break: break-word;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .copytrade-tradermsg {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    &--lightgray {
+      color: lightgray;
+    }
+  }
+  .chosen-choices {
+    box-shadow: none;
+    outline: 0;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    background-image: none;
+    .search-choice {
+      border-radius: 10px !important;
+      padding: 6px 20px 6px 5px !important;
+      border: none !important;
+      .search-choice-close {
+        top: 7px !important;
+      }
+    }
+  }
+  .openTokenMgmt {
+    cursor: pointer;
+  }
+}

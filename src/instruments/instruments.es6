@@ -12,7 +12,7 @@ import "common/util";
 
 function refresh_active_symbols() {
     liveapi
-        .send({ active_symbols: 'brief', "landing_company": "champion" })
+        .send({ active_symbols: 'brief' })
         .then(function(data) {
             local_storage.set('active_symbols', data.active_symbols);
             const active_symbols = [];
