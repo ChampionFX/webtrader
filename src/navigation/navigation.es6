@@ -44,7 +44,15 @@ const initLoginButton = (root) => {
       show_new_account_link: false,
 
    };
-
+const destroy_windows = (data_attribute) => {
+  $(`.webtrader-dialog[${data_attribute}]`).each((inx, elm) => {
+    const dlg = $(elm);
+    dlg.dialog('close');
+    dlg.one('dialogclose', () => {
+      _.defer(() => dlg.dialog('instance') && dlg.dialog('destroy') && dlg.remove());
+    });
+});
+}
 
    state.oauth = local_storage.get('oauth') || [];
    state.oauth = state.oauth.map((e) => {
@@ -82,6 +90,7 @@ const initLoginButton = (root) => {
    };
 
    state.switchAccount = (id) => {
+      destroy_windows('data-account-specific=true');
       liveapi.switch_account(id)
          .catch((err) => {
             $.growl.error({message: err.message});
@@ -115,13 +124,8 @@ const initLoginButton = (root) => {
    liveapi.events.on('balance', update_balance);
 
    liveapi.events.on('logout', () => {
-      $('.webtrader-dialog[data-authorized=true]').each((inx, elm) => {
-         const dlg = $(elm);
-         dlg.dialog('close');
-         dlg.one('dialogclose', () => {
-            _.defer(() => dlg.dialog('instance') && dlg.dialog('destroy') && dlg.remove());
-         });
-      });
+      destroy_windows('data-authorized=true');
+      destroy_windows('data-account-specific=true');
       /* destroy all authorized dialogs */
       state.logout_disabled = false;
       state.account.show = false;
@@ -135,13 +139,7 @@ const initLoginButton = (root) => {
    });
 
    liveapi.events.on('login', (data) => {
-      $('.webtrader-dialog[data-authorized=true]').each((inx, elm) => {
-         const dlg = $(elm);
-         dlg.dialog('close');
-         dlg.one('dialogclose', () => {
-            _.defer(() => dlg.dialog('instance') && dlg.dialog('destroy') && dlg.remove());
-         });
-      });
+      destroy_windows('data-authorized=true');
       /* destroy all authorized dialogs */
       state.show_login = false;
       state.account.show = true;
@@ -195,7 +193,7 @@ const initLoginButton = (root) => {
    }, 1000);
 }
 
-const initLangButton = (root) => {
+const initLang = (root) => {
    root = root.find('#topbar').addBack('#topbar');
    const state = {
       lang: {
@@ -232,19 +230,15 @@ const initLangButton = (root) => {
       window.location.reload();
    };
 
-   // Open contact us page.
-   state.openContactUs = () => {
-      const url = 'https://www.champion-fx.com/' + (local_storage.get('i18n') || { value: 'en' }).value + '/contact.html'
-      const win = window.open(url, '_blank');
-      win.focus();
-   }
-
    state.toggleVisibility = (visible) => {
       state.confirm.visible = visible;
    }
 
    const value = (local_storage.get('i18n') || {value: 'en'}).value;
    state.lang = _.find(state.languages, {value: value}); // set the initial state.
+
+   const contact_us_el = document.getElementById('contact-us');
+   contact_us_el.href = `https://www.binary.com/${value}/contact.html`;
 
    rv.bind(root[0], state);
 
@@ -353,7 +347,7 @@ export const init = (callback) => {
    $("body").prepend(root);
 
    initLoginButton(root);
-   initLangButton(root);
+   initLang(root);
 
    //Load theme settings ...
    require(['themes/themes']);
