@@ -11,6 +11,7 @@ import 'css!./login.css';
 
 let login_win = null;
 let login_win_view = null; // rivets view
+const DEFAULT_SERVER_URL = 'oauth.champion-fx.com';
 
 export const init = () => {
    if(login_win){
@@ -99,15 +100,15 @@ const init_state = (root, win) => {
 
    state.login.login = () => {
       state.login.disabled = true;
-      const config = local_storage.get('config');
-      const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
+      const server_url = liveapi.server_url || DEFAULT_SERVER_URL;
+      const oauth_url = `https://${server_url}/oauth2/authorize`;
       window.location =  oauth_url + '?app_id=' + app_id;
    }
 
    state.confirm.confirm = () => {
       state.confirm.disabled = true;
-      const config = local_storage.get('config');
-      const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
+      const server_url = liveapi.server_url || DEFAULT_SERVER_URL;
+      const oauth_url = `https://${server_url}/oauth2/authorize`;
       window.location =  oauth_url + '?app_id=' + app_id;
    }
 
@@ -247,8 +248,8 @@ const init_state = (root, win) => {
 
 export const login = () => {
    const app_id = liveapi.app_id;
-   const config = local_storage.get('config');
-   const oauth_url = (config && config.oauth_url) || 'https://oauth.champion-fx.com/oauth2/authorize';
+   const server_url = liveapi.server_url || DEFAULT_SERVER_URL;
+   const oauth_url = `https://${server_url}/oauth2/authorize`;
    window.location =  oauth_url + '?app_id=' + app_id;
 }
 

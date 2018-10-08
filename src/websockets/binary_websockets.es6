@@ -31,11 +31,12 @@ const get_app_default_appid = () => {
 
 const get_app_id = () => localStorage.getItem('config.app_id') || get_app_default_appid() || 11;
 
-const get_server_url = () => localStorage.getItem('config.server_url') || 'frontend.binaryws.com';
+const get_server_url = () => localStorage.getItem('config.server_url');
 
 const get_socket_url = () => {
-   const server_url = get_server_url();
-   return `wss://${server_url}/websockets/v3`;
+      const DEFAULT_SOCKET_URL = 'ws.binaryws.com';
+      const server_url = get_server_url() || DEFAULT_SOCKET_URL;
+      return `wss://${server_url}/websockets/v3`;
 };
 
 export const socket_url = get_socket_url();
@@ -44,7 +45,7 @@ export const server_url = get_server_url();
 
 const connect = () => {
    const i18n_name = (local_storage.get('i18n') || { value: 'en' }).value;
-   const api_url = ('wss://ws.binaryws.com/websockets/v3?l='+i18n_name) + '&app_id=' + app_id;
+   const api_url = `${socket_url}?l=${i18n_name}&app_id=${app_id}`;
    const ws = new WebSocket(api_url);
 
    ws.addEventListener('open', onopen);
