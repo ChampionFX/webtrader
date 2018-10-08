@@ -34,7 +34,8 @@ const get_app_id = () => localStorage.getItem('config.app_id') || get_app_defaul
 const get_server_url = () => localStorage.getItem('config.server_url');
 
 const get_socket_url = () => {
-      const server_url = get_server_url() || 'frontend.binaryws.com';
+      const DEFAULT_SOCKET_URL = 'ws.binaryws.com';
+      const server_url = get_server_url() || DEFAULT_SOCKET_URL;
       return `wss://${server_url}/websockets/v3`;
 };
 
