@@ -31,10 +31,10 @@ const get_app_default_appid = () => {
 
 const get_app_id = () => localStorage.getItem('config.app_id') || get_app_default_appid() || 11;
 
-const get_server_url = () => localStorage.getItem('config.server_url') || 'frontend.binaryws.com';
+const get_server_url = () => localStorage.getItem('config.server_url');
 
 const get_socket_url = () => {
-   const server_url = get_server_url();
+   const server_url = get_server_url() || 'frontend.binaryws.com';
    return `wss://${server_url}/websockets/v3`;
 };
 
