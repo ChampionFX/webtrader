@@ -459,7 +459,7 @@ input[type="number"] {
 
 }
 .view.indicator #settings {
-    height: calc(100%)!important;
+    /* height: calc(100%)!important; */
 }
 .view .types .type .empty > a:last-of-type > span {
     width: 220px!important;
@@ -546,4 +546,8 @@ label.checkbox input:checked ~ span.check {
 .ui-dialog-titlebar {
     display: flex;
     align-items: center;
+}
+
+.action_btn a {
+    text-decoration: none !important;
 }
