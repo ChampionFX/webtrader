@@ -5,14 +5,12 @@ let win = null;
 
 export const init = () => {
     const msg = $("<div style='padding:10px'/>").append($("<span/>", {
-        html: "Please send the following documents to %1 in order to verify your identity and authenticate your account:"
+        html: "Authenticate your account now by verifying your identity and address. To proceed, simply send the following documents to %1:"
             .i18n().replace("%1", "<a href=\"mailto:support@champion-fx.com\">support@champion-fx.com</a>")
     }).append( $("<ul class=\"checked\">").append(
-            $("<li>", { html: "Proof of identity – A scanned copy of your passport, driving license (either provisional or full), or identity card that shows your full name and date of birth.".i18n() }),
-            $("<li>", { html: "Proof of address – A scanned copy of a utility bill or bank statement that’s not more than three months old.".i18n() })
-        )).append(
-            $('<p>',{html:'Got questions? <a href=\'https://www.binary.com/en/contact.html\'>Contact us</a> for help.'})
-        ));
+            $("<li>", { html: "Proof of identity - A scanned copy of your passport, driving license (either provisional or full), or identity card that shows your full name and date of birth.".i18n() }),
+            $("<li>", { html: "Proof of address - A scanned copy of a utility bill or bank statement that’s not more than three months old. Your proof of address must contain your name, address, date of issue, and the name of the issuing organisation.".i18n() })
+        )));
     if (win) {
         win.moveToTop();
         return;
