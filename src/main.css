@@ -437,6 +437,10 @@ input[type="number"] {
     line-height: 20px;
     display: none;
 }
+
+#msg-notification a {
+    text-decoration: none;
+}
 /* Override charts css */
 .chartSubContainerHeader {
     margin-top: 5px!important;
