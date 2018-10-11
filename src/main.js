@@ -185,16 +185,12 @@ require(["jquery", "text!i18n/" + i18n_name + ".json"], function($, lang_json) {
                 elem.click();
             });
 
-            if (isChampionFx()) {
-                $navMenu.find("a.token-management").hide();
-            } else {
-                //Register async loading of token-management sub-menu
-                load_ondemand($navMenu.find("a.token-management"), 'click', 'Loading Token management ...'.i18n(), 'token/token', function(tokenMangement) {
-                    var elem = $navMenu.find("a.token-management");
-                    tokenMangement.init(elem);
-                    elem.click();
-                });
-            }
+            //Register async loading of token-management sub-menu
+            load_ondemand($navMenu.find("a.token-management"), 'click', 'Loading Token management ...'.i18n(), 'token/token', function(tokenMangement) {
+                var elem = $navMenu.find("a.token-management");
+                tokenMangement.init(elem);
+                elem.click();
+            });
 
             //Register async loading of change-password sub-menu
             load_ondemand($navMenu.find("a.change-password"), "click", "Loading Password dialog ...".i18n(), "password/password", function(password) {

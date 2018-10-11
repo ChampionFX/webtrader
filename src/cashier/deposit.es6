@@ -141,7 +141,7 @@ function init_state(root) {
     /* get the cashier_url */
     liveapi.send({
         cashier: 'deposit',
-        provider: 'epg'
+        provider: 'doughflow'
     }).then(function(data) {
         state.user.cashier_url = data.cashier;
     }).catch((err) => {

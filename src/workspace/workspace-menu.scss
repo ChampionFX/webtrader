@@ -1,7 +1,11 @@
 ul.workspace-ul {
   li {
     > a {
-      &:hover { opacity: 1; }
+      &:hover {
+        opacity: 1;
+        color: #FFF;
+        background-color: #013365;
+      }
       color: white;
       padding: 0;
       line-height: 34px;
