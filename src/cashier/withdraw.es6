@@ -205,7 +205,7 @@ class Withdraw {
                 liveapi.send({
                         cashier: 'withdraw',
                         verification_code: verify.token,
-                        provider: 'epg'
+                        provider: 'dougflow'
                     })
                     .then(data => {
                         if (data.cashier.startsWith('ASK_')) { /* error code */
